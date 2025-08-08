@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-08 10:05+0000\n"
+"POT-Creation-Date: 2025-08-08 10:22+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -954,7 +954,7 @@ msgid "**Version:** 2.1.0"
 msgstr ""
 
 #: ../../source/tutorial.rst:4
-msgid "Welcome to Our Application"
+msgid "Welcome to Our Application Lady And Gentleman"
 msgstr ""
 
 #: ../../source/tutorial.rst:7
@@ -1304,4 +1304,7 @@ msgstr ""
 #: ../../source/tutorial.rst:168
 msgid "Terms of Service | Privacy Policy | Contact Us"
 msgstr ""
+
+#~ msgid "Welcome to Our Application"
+#~ msgstr ""
 
