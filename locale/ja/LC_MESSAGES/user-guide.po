@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-08 08:46+0000\n"
+"POT-Creation-Date: 2025-08-08 09:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -19,6 +19,570 @@ msgstr ""
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.17.0\n"
+
+#: ../../source/api-guide.rst:-1
+msgid "Complete API reference for developers"
+msgstr ""
+
+#: ../../source/api-guide.rst:-1
+msgid "API, REST, authentication, endpoints"
+msgstr ""
+
+#: ../../source/api-guide.rst:2
+msgid "```rst"
+msgstr ""
+
+#: ../../source/api-guide.rst:4
+msgid "API Reference and Developer Guide"
+msgstr ""
+
+#: ../../source/api-guide.rst:11
+msgid "Overview"
+msgstr ""
+
+#: ../../source/api-guide.rst:13
+msgid ""
+"This comprehensive guide covers our REST API, authentication methods, and"
+" integration examples for developers building applications with our "
+"platform."
+msgstr ""
+
+#: ../../source/api-guide.rst:20
+msgid "Authentication"
+msgstr ""
+
+#: ../../source/api-guide.rst:23
+msgid "API Token Authentication"
+msgstr ""
+
+#: ../../source/api-guide.rst:25
+msgid ""
+"To authenticate with our API, you need to include your API token in the "
+"request headers:"
+msgstr ""
+
+#: ../../source/api-guide.rst:35
+msgid ""
+"Keep your API tokens secure! Never expose them in client-side code or "
+"public repositories."
+msgstr ""
+
+#: ../../source/api-guide.rst:38
+msgid "OAuth 2.0 Flow"
+msgstr ""
+
+#: ../../source/api-guide.rst:40
+msgid "For applications requiring user authorization, use OAuth 2.0:"
+msgstr ""
+
+#: ../../source/api-guide.rst:42
+msgid "**Authorization Request**"
+msgstr ""
+
+#: ../../source/api-guide.rst:44
+msgid "Redirect users to our authorization endpoint:"
+msgstr ""
+
+#: ../../source/api-guide.rst:54
+msgid "**Token Exchange**"
+msgstr ""
+
+#: ../../source/api-guide.rst:56
+msgid "Exchange the authorization code for an access token:"
+msgstr ""
+
+#: ../../source/api-guide.rst:68
+msgid "API Endpoints"
+msgstr ""
+
+#: ../../source/api-guide.rst:71
+msgid "User Management"
+msgstr ""
+
+#: ../../source/api-guide.rst:74
+msgid "Get User Profile"
+msgstr ""
+
+#: ../../source/api-guide.rst:76
+msgid "Retrieve information about the current user:"
+msgstr ""
+
+#: ../../source/api-guide.rst:80
+msgid "**Example Request:**"
+msgstr ""
+
+#: ../../source/api-guide.rst:87
+msgid "**Example Response:**"
+msgstr ""
+
+#: ../../source/api-guide.rst
+msgid "Status Codes"
+msgstr ""
+
+#: ../../source/api-guide.rst:105
+msgid "Success"
+msgstr ""
+
+#: ../../source/api-guide.rst:106
+msgid "Unauthorized - Invalid or missing token"
+msgstr ""
+
+#: ../../source/api-guide.rst:107
+msgid "Rate limit exceeded"
+msgstr ""
+
+#: ../../source/api-guide.rst:110
+msgid "Update User Profile"
+msgstr ""
+
+#: ../../source/api-guide.rst:114
+msgid "Update user profile information."
+msgstr ""
+
+#: ../../source/api-guide.rst:116
+msgid "**Request Body:**"
+msgstr ""
+
+#: ../../source/api-guide.rst:129
+msgid "Project Management"
+msgstr ""
+
+#: ../../source/api-guide.rst:132
+msgid "List Projects"
+msgstr ""
+
+#: ../../source/api-guide.rst:136
+msgid "Retrieve a list of projects accessible to the authenticated user."
+msgstr ""
+
+#: ../../source/api-guide.rst
+msgid "Query Parameters"
+msgstr ""
+
+#: ../../source/api-guide.rst:138
+msgid "Number of results per page (default: 50, max: 100)"
+msgstr ""
+
+#: ../../source/api-guide.rst:139
+msgid "Pagination offset (default: 0)"
+msgstr ""
+
+#: ../../source/api-guide.rst:140
+msgid "Filter by project status (active, archived, draft)"
+msgstr ""
+
+#: ../../source/api-guide.rst:141
+msgid "Search projects by name or description"
+msgstr ""
+
+#: ../../source/api-guide.rst:144
+msgid "Create New Project"
+msgstr ""
+
+#: ../../source/api-guide.rst:148
+msgid "Create a new project."
+msgstr ""
+
+#: ../../source/api-guide.rst:150
+msgid "**Required Fields:**"
+msgstr ""
+
+#: ../../source/api-guide.rst:165
+msgid "Error Handling"
+msgstr ""
+
+#: ../../source/api-guide.rst:168
+msgid "Standard Error Response"
+msgstr ""
+
+#: ../../source/api-guide.rst:170
+msgid "All API errors follow a consistent format:"
+msgstr ""
+
+#: ../../source/api-guide.rst:189
+msgid "Common Error Codes"
+msgstr ""
+
+#: ../../source/api-guide.rst:192
+msgid "AUTHENTICATION_REQUIRED"
+msgstr ""
+
+#: ../../source/api-guide.rst:194
+msgid "The request requires authentication. Include a valid API token."
+msgstr ""
+
+#: ../../source/api-guide.rst:195
+msgid "INSUFFICIENT_PERMISSIONS"
+msgstr ""
+
+#: ../../source/api-guide.rst:197
+msgid "The authenticated user lacks permission for this operation."
+msgstr ""
+
+#: ../../source/api-guide.rst:198
+msgid "VALIDATION_ERROR"
+msgstr ""
+
+#: ../../source/api-guide.rst:200
+msgid ""
+"Request data validation failed. Check the details array for specific "
+"field errors."
+msgstr ""
+
+#: ../../source/api-guide.rst:201
+msgid "RATE_LIMIT_EXCEEDED"
+msgstr ""
+
+#: ../../source/api-guide.rst:203
+msgid "Too many requests in a short time period. Wait before retrying."
+msgstr ""
+
+#: ../../source/api-guide.rst:204
+msgid "RESOURCE_NOT_FOUND"
+msgstr ""
+
+#: ../../source/api-guide.rst:206
+msgid "The requested resource does not exist or is not accessible."
+msgstr ""
+
+#: ../../source/api-guide.rst:207
+msgid "SERVER_ERROR"
+msgstr ""
+
+#: ../../source/api-guide.rst:209
+msgid "An internal server error occurred. Contact support if this persists."
+msgstr ""
+
+#: ../../source/api-guide.rst:212
+msgid "Rate Limiting"
+msgstr ""
+
+#: ../../source/api-guide.rst:214
+msgid "API requests are subject to rate limiting:"
+msgstr ""
+
+#: ../../source/api-guide.rst:216
+msgid "Rate Limits by Plan"
+msgstr ""
+
+#: ../../source/api-guide.rst:220
+msgid "Plan Type"
+msgstr ""
+
+#: ../../source/api-guide.rst:221
+msgid "Requests/Hour"
+msgstr ""
+
+#: ../../source/api-guide.rst:222
+msgid "Burst Limit"
+msgstr ""
+
+#: ../../source/api-guide.rst:223
+msgid "Overage Policy"
+msgstr ""
+
+#: ../../source/api-guide.rst:224
+msgid "Free"
+msgstr ""
+
+#: ../../source/api-guide.rst:225
+msgid "1,000"
+msgstr ""
+
+#: ../../source/api-guide.rst:226
+msgid "100/minute"
+msgstr ""
+
+#: ../../source/api-guide.rst:227
+msgid "Block requests"
+msgstr ""
+
+#: ../../source/api-guide.rst:228
+msgid "Professional"
+msgstr ""
+
+#: ../../source/api-guide.rst:229
+msgid "10,000"
+msgstr ""
+
+#: ../../source/api-guide.rst:230
+msgid "500/minute"
+msgstr ""
+
+#: ../../source/api-guide.rst:231
+msgid "Charge for overage"
+msgstr ""
+
+#: ../../source/api-guide.rst:232
+msgid "Enterprise"
+msgstr ""
+
+#: ../../source/api-guide.rst:233
+msgid "100,000"
+msgstr ""
+
+#: ../../source/api-guide.rst:234
+msgid "2,000/minute"
+msgstr ""
+
+#: ../../source/api-guide.rst:235
+msgid "Custom limits"
+msgstr ""
+
+#: ../../source/api-guide.rst:237
+msgid "Rate limit information is included in response headers:"
+msgstr ""
+
+#: ../../source/api-guide.rst:247
+msgid "SDK Examples"
+msgstr ""
+
+#: ../../source/api-guide.rst:250
+msgid "Python SDK"
+msgstr ""
+
+#: ../../source/api-guide.rst:285
+msgid "JavaScript SDK"
+msgstr ""
+
+#: ../../source/api-guide.rst:328
+msgid "Webhooks"
+msgstr ""
+
+#: ../../source/api-guide.rst:331
+msgid "Event Types"
+msgstr ""
+
+#: ../../source/api-guide.rst:333
+msgid "Our platform sends webhooks for the following events:"
+msgstr ""
+
+#: ../../source/api-guide.rst:338
+msgid "``project.created``"
+msgstr ""
+
+#: ../../source/api-guide.rst:339
+msgid "``project.updated``"
+msgstr ""
+
+#: ../../source/api-guide.rst:340
+msgid "``project.deleted``"
+msgstr ""
+
+#: ../../source/api-guide.rst:341
+msgid "``user.registered``"
+msgstr ""
+
+#: ../../source/api-guide.rst:342
+msgid "``user.updated``"
+msgstr ""
+
+#: ../../source/api-guide.rst:343
+msgid "``deployment.started``"
+msgstr ""
+
+#: ../../source/api-guide.rst:344
+msgid "``deployment.completed``"
+msgstr ""
+
+#: ../../source/api-guide.rst:345
+msgid "``deployment.failed``"
+msgstr ""
+
+#: ../../source/api-guide.rst:348
+msgid "Webhook Configuration"
+msgstr ""
+
+#: ../../source/api-guide.rst:350
+msgid "Configure webhooks in your project settings:"
+msgstr ""
+
+#: ../../source/api-guide.rst:352
+msgid "Navigate to **Project Settings** → **Webhooks**"
+msgstr ""
+
+#: ../../source/api-guide.rst:353
+msgid "Click **Add Webhook**"
+msgstr ""
+
+#: ../../source/api-guide.rst:354
+msgid "Enter your endpoint URL"
+msgstr ""
+
+#: ../../source/api-guide.rst:355
+msgid "Select events to subscribe to"
+msgstr ""
+
+#: ../../source/api-guide.rst:356
+msgid "Configure retry settings"
+msgstr ""
+
+#: ../../source/api-guide.rst:359
+msgid ""
+"Webhook endpoints must respond with HTTP 200-299 status codes within 10 "
+"seconds, or the delivery will be considered failed."
+msgstr ""
+
+#: ../../source/api-guide.rst:362
+msgid "Testing and Development"
+msgstr ""
+
+#: ../../source/api-guide.rst:365
+msgid "Sandbox Environment"
+msgstr ""
+
+#: ../../source/api-guide.rst:367
+msgid "Use our sandbox environment for testing:"
+msgstr ""
+
+#: ../../source/api-guide.rst:378
+msgid "Mock Data"
+msgstr ""
+
+#: ../../source/api-guide.rst:380
+msgid "The sandbox includes realistic mock data:"
+msgstr ""
+
+#: ../../source/api-guide.rst:382
+msgid "50+ sample users"
+msgstr ""
+
+#: ../../source/api-guide.rst:383
+msgid "100+ sample projects"
+msgstr ""
+
+#: ../../source/api-guide.rst:384
+msgid "Realistic timestamps and relationships"
+msgstr ""
+
+#: ../../source/api-guide.rst:385
+msgid "Predictable responses for testing edge cases"
+msgstr ""
+
+#: ../../source/api-guide.rst:388
+msgid "Support and Resources"
+msgstr ""
+
+#: ../../source/api-guide.rst:391
+msgid "Getting Help"
+msgstr ""
+
+#: ../../source/api-guide.rst:394
+msgid ""
+"Our support team is available 24/7 for Enterprise customers, and during "
+"business hours (9 AM - 6 PM UTC) for all other plans."
+msgstr ""
+
+#: ../../source/api-guide.rst:396
+msgid "**Documentation:**"
+msgstr ""
+
+#: ../../source/api-guide.rst:397
+msgid "API Reference: https://docs.example.com/api"
+msgstr ""
+
+#: ../../source/api-guide.rst:398
+msgid "Tutorials: https://docs.example.com/tutorials"
+msgstr ""
+
+#: ../../source/api-guide.rst:399
+msgid "Code Examples: https://github.com/example/api-examples"
+msgstr ""
+
+#: ../../source/api-guide.rst:401
+msgid "**Community:**"
+msgstr ""
+
+#: ../../source/api-guide.rst:402
+msgid "Stack Overflow: Tag your questions with ``example-api``"
+msgstr ""
+
+#: ../../source/api-guide.rst:403
+msgid "Discord: https://discord.gg/example-developers"
+msgstr ""
+
+#: ../../source/api-guide.rst:404
+msgid "GitHub Discussions: https://github.com/example/api-feedback"
+msgstr ""
+
+#: ../../source/api-guide.rst:406
+msgid "**Direct Support:**"
+msgstr ""
+
+#: ../../source/api-guide.rst:407
+msgid "Email: developers@example.com"
+msgstr ""
+
+#: ../../source/api-guide.rst:408
+msgid "Support Portal: https://support.example.com"
+msgstr ""
+
+#: ../../source/api-guide.rst:411
+msgid "Changelog"
+msgstr ""
+
+#: ../../source/api-guide.rst:414
+msgid "Version 2.1 (March 2024)"
+msgstr ""
+
+#: ../../source/api-guide.rst:416
+msgid "**New Features:**"
+msgstr ""
+
+#: ../../source/api-guide.rst:417
+msgid "Added batch operations for user management"
+msgstr ""
+
+#: ../../source/api-guide.rst:418
+msgid "Improved rate limiting with burst capacity"
+msgstr ""
+
+#: ../../source/api-guide.rst:419
+msgid "New webhook event types for deployments"
+msgstr ""
+
+#: ../../source/api-guide.rst:421
+msgid "**Breaking Changes:**"
+msgstr ""
+
+#: ../../source/api-guide.rst:422
+msgid "Deprecated ``/api/v1/legacy`` endpoints (removal planned for v3.0)"
+msgstr ""
+
+#: ../../source/api-guide.rst:423
+msgid "Changed default pagination limit from 25 to 50"
+msgstr ""
+
+#: ../../source/api-guide.rst:425
+msgid "**Bug Fixes:**"
+msgstr ""
+
+#: ../../source/api-guide.rst:426
+msgid "Fixed timezone handling in date filters"
+msgstr ""
+
+#: ../../source/api-guide.rst:427
+msgid "Resolved intermittent 500 errors in project creation"
+msgstr ""
+
+#: ../../source/api-guide.rst:429 ../../source/index.rst:171
+msgid "---"
+msgstr ""
+
+#: ../../source/api-guide.rst:431
+msgid "Stay Updated"
+msgstr ""
+
+#: ../../source/api-guide.rst:434
+msgid ""
+"Subscribe to our developer newsletter at "
+"https://example.com/developers/newsletter to receive updates about API "
+"changes, new features, and best practices."
+msgstr ""
+
+#: ../../source/api-guide.rst:436
+msgid "*Last updated: March 15, 2024 | API Version: 2.1.0* ```"
+msgstr ""
 
 #: ../../source/index.rst:178
 msgid "© 2024 Your Company Name. All rights reserved."
@@ -379,10 +943,6 @@ msgstr ""
 
 #: ../../source/index.rst:169
 msgid "Set up automated workflows"
-msgstr ""
-
-#: ../../source/index.rst:171
-msgid "---"
 msgstr ""
 
 #: ../../source/index.rst:173
