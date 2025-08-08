@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-08 09:42+0000\n"
+"POT-Creation-Date: 2025-08-08 10:05+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -95,7 +95,7 @@ msgstr ""
 msgid "API Endpoints"
 msgstr ""
 
-#: ../../source/api-guide.rst:71
+#: ../../source/api-guide.rst:71 ../../source/tutorial.rst:37
 msgid "User Management"
 msgstr ""
 
@@ -119,7 +119,7 @@ msgstr ""
 msgid "Status Codes"
 msgstr ""
 
-#: ../../source/api-guide.rst:105
+#: ../../source/api-guide.rst:105 ../../source/tutorial.rst:100
 msgid "Success"
 msgstr ""
 
@@ -187,7 +187,7 @@ msgstr ""
 msgid "**Required Fields:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:165
+#: ../../source/api-guide.rst:165 ../../source/tutorial.rst:110
 msgid "Error Handling"
 msgstr ""
 
@@ -608,7 +608,7 @@ msgid ""
 "internationalization workflows."
 msgstr ""
 
-#: ../../source/index.rst:14
+#: ../../source/index.rst:14 ../../source/tutorial.rst:15
 msgid "Getting Started"
 msgstr ""
 
@@ -866,11 +866,11 @@ msgstr ""
 msgid "For additional help, contact our support team at support@example.com"
 msgstr ""
 
-#: ../../source/index.rst:140
+#: ../../source/index.rst:140 ../../source/tutorial.rst:133
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: ../../source/index.rst:142
+#: ../../source/index.rst:142 ../../source/tutorial.rst:135
 msgid "**Q: How do I reset my password?**"
 msgstr ""
 
@@ -951,5 +951,357 @@ msgstr ""
 
 #: ../../source/index.rst:175
 msgid "**Version:** 2.1.0"
+msgstr ""
+
+#: ../../source/tutorial.rst:4
+msgid "Welcome to Our Application"
+msgstr ""
+
+#: ../../source/tutorial.rst:7
+msgid "This is a sample RST file for testing internationalization with Weblate."
+msgstr ""
+
+#: ../../source/tutorial.rst:10
+msgid "Introduction"
+msgstr ""
+
+#: ../../source/tutorial.rst:12
+msgid ""
+"Welcome to our amazing application! This software helps you manage your "
+"daily tasks efficiently and stay organized."
+msgstr ""
+
+#: ../../source/tutorial.rst:17
+msgid "To begin using the application, please follow these simple steps:"
+msgstr ""
+
+#: ../../source/tutorial.rst:19
+msgid "**Download and Install**"
+msgstr ""
+
+#: ../../source/tutorial.rst:21
+msgid ""
+"Download the latest version from our website and follow the installation "
+"wizard."
+msgstr ""
+
+#: ../../source/tutorial.rst:23
+msgid "**Create Your Account**"
+msgstr ""
+
+#: ../../source/tutorial.rst:25
+msgid ""
+"Sign up with your email address to get started. Don't worry, we respect "
+"your privacy!"
+msgstr ""
+
+#: ../../source/tutorial.rst:27
+msgid "**Set Up Your Profile**"
+msgstr ""
+
+#: ../../source/tutorial.rst:29
+msgid ""
+"Add your personal information and preferences to customize your "
+"experience."
+msgstr ""
+
+#: ../../source/tutorial.rst:32
+msgid "Features"
+msgstr ""
+
+#: ../../source/tutorial.rst:34
+msgid "Our application includes many powerful features:"
+msgstr ""
+
+#: ../../source/tutorial.rst:39
+msgid "Create and manage user accounts"
+msgstr ""
+
+#: ../../source/tutorial.rst:40
+msgid "Set user permissions and roles"
+msgstr ""
+
+#: ../../source/tutorial.rst:41
+msgid "Track user activity and preferences"
+msgstr ""
+
+#: ../../source/tutorial.rst:44
+msgid "Task Organization"
+msgstr ""
+
+#: ../../source/tutorial.rst:46
+msgid "Create tasks with due dates"
+msgstr ""
+
+#: ../../source/tutorial.rst:47
+msgid "Organize tasks into projects"
+msgstr ""
+
+#: ../../source/tutorial.rst:48
+msgid "Set priority levels (High, Medium, Low)"
+msgstr ""
+
+#: ../../source/tutorial.rst:49
+msgid "Add tags and categories"
+msgstr ""
+
+#: ../../source/tutorial.rst:52
+msgid "Notifications"
+msgstr ""
+
+#: ../../source/tutorial.rst:54
+msgid "The system will notify you about:"
+msgstr ""
+
+#: ../../source/tutorial.rst:56
+msgid "Upcoming deadlines"
+msgstr ""
+
+#: ../../source/tutorial.rst:57
+msgid "Task completions"
+msgstr ""
+
+#: ../../source/tutorial.rst:58
+msgid "System updates"
+msgstr ""
+
+#: ../../source/tutorial.rst:59
+msgid "New messages from team members"
+msgstr ""
+
+#: ../../source/tutorial.rst:62
+msgid "Please make sure to save your work regularly to prevent data loss."
+msgstr ""
+
+#: ../../source/tutorial.rst:65
+msgid "Settings and Configuration"
+msgstr ""
+
+#: ../../source/tutorial.rst:67
+msgid "You can customize the application through the settings panel:"
+msgstr ""
+
+#: ../../source/tutorial.rst:70
+msgid "General Settings"
+msgstr ""
+
+#: ../../source/tutorial.rst
+msgid "Language"
+msgstr ""
+
+#: ../../source/tutorial.rst:72
+msgid "Choose your preferred language from 25+ available options"
+msgstr ""
+
+#: ../../source/tutorial.rst
+msgid "Theme"
+msgstr ""
+
+#: ../../source/tutorial.rst:73
+msgid "Select between Light, Dark, or Auto mode"
+msgstr ""
+
+#: ../../source/tutorial.rst
+msgid "Timezone"
+msgstr ""
+
+#: ../../source/tutorial.rst:74
+msgid "Set your local timezone for accurate scheduling"
+msgstr ""
+
+#: ../../source/tutorial.rst
+msgid "Date Format"
+msgstr ""
+
+#: ../../source/tutorial.rst:75
+msgid "Choose between MM/DD/YYYY or DD/MM/YYYY"
+msgstr ""
+
+#: ../../source/tutorial.rst:78
+msgid "Advanced Options"
+msgstr ""
+
+#: ../../source/tutorial.rst:90
+msgid "Common Messages"
+msgstr ""
+
+#: ../../source/tutorial.rst:92
+msgid "Here are some common messages you might encounter:"
+msgstr ""
+
+#: ../../source/tutorial.rst:94
+msgid "Status Messages"
+msgstr ""
+
+#: ../../source/tutorial.rst:98
+msgid "Status"
+msgstr ""
+
+#: ../../source/tutorial.rst:99
+msgid "Message"
+msgstr ""
+
+#: ../../source/tutorial.rst:101
+msgid "Your changes have been saved successfully."
+msgstr ""
+
+#: ../../source/tutorial.rst:102
+msgid "Error"
+msgstr ""
+
+#: ../../source/tutorial.rst:103
+msgid "An error occurred while processing your request. Please try again."
+msgstr ""
+
+#: ../../source/tutorial.rst:104
+msgid "Warning"
+msgstr ""
+
+#: ../../source/tutorial.rst:105
+msgid "You have unsaved changes. Are you sure you want to leave this page?"
+msgstr ""
+
+#: ../../source/tutorial.rst:106
+msgid "Info"
+msgstr ""
+
+#: ../../source/tutorial.rst:107
+msgid "New updates are available. Click here to learn more."
+msgstr ""
+
+#: ../../source/tutorial.rst:112
+msgid "When errors occur, the system provides helpful messages:"
+msgstr ""
+
+#: ../../source/tutorial.rst:114
+msgid ""
+"**Connection Error**: Unable to connect to the server. Please check your "
+"internet connection."
+msgstr ""
+
+#: ../../source/tutorial.rst:115
+msgid ""
+"**Permission Denied**: You don't have permission to perform this action. "
+"Contact your administrator."
+msgstr ""
+
+#: ../../source/tutorial.rst:116
+msgid ""
+"**File Not Found**: The requested file could not be found. Please verify "
+"the file path."
+msgstr ""
+
+#: ../../source/tutorial.rst:117
+msgid ""
+"**Invalid Input**: The information you entered is not valid. Please check"
+" and try again."
+msgstr ""
+
+#: ../../source/tutorial.rst:120
+msgid "Help and Support"
+msgstr ""
+
+#: ../../source/tutorial.rst:122
+msgid "Need assistance? We're here to help!"
+msgstr ""
+
+#: ../../source/tutorial.rst:125
+msgid "Contact Options"
+msgstr ""
+
+#: ../../source/tutorial.rst
+msgid "Email"
+msgstr ""
+
+#: ../../source/tutorial.rst:127
+msgid "support@example.com"
+msgstr ""
+
+#: ../../source/tutorial.rst
+msgid "Phone"
+msgstr ""
+
+#: ../../source/tutorial.rst:128
+msgid "+1 (555) 123-4567"
+msgstr ""
+
+#: ../../source/tutorial.rst
+msgid "Live Chat"
+msgstr ""
+
+#: ../../source/tutorial.rst:129
+msgid "Available 24/7 through our website"
+msgstr ""
+
+#: ../../source/tutorial.rst
+msgid "Documentation"
+msgstr ""
+
+#: ../../source/tutorial.rst:130
+msgid "Visit our knowledge base at docs.example.com"
+msgstr ""
+
+#: ../../source/tutorial.rst:137
+msgid ""
+"A: Click on \"Forgot Password\" on the login page and follow the "
+"instructions sent to your email."
+msgstr ""
+
+#: ../../source/tutorial.rst:139
+msgid "**Q: Can I use the application offline?**"
+msgstr ""
+
+#: ../../source/tutorial.rst:141
+msgid ""
+"A: Yes, basic features are available offline. Your data will sync when "
+"you reconnect to the internet."
+msgstr ""
+
+#: ../../source/tutorial.rst:143
+msgid "**Q: Is my data secure?**"
+msgstr ""
+
+#: ../../source/tutorial.rst:145
+msgid ""
+"A: Absolutely! We use industry-standard encryption to protect your "
+"information."
+msgstr ""
+
+#: ../../source/tutorial.rst:148
+msgid "About"
+msgstr ""
+
+#: ../../source/tutorial.rst:150
+msgid "This application was developed with ❤️ by our dedicated team."
+msgstr ""
+
+#: ../../source/tutorial.rst:152
+msgid "Version: 2.1.0"
+msgstr ""
+
+#: ../../source/tutorial.rst:154
+msgid "Released: March 2024"
+msgstr ""
+
+#: ../../source/tutorial.rst:156
+msgid "License: MIT License"
+msgstr ""
+
+#: ../../source/tutorial.rst:159
+msgid ""
+"Remember to regularly update the application to get the latest features "
+"and security improvements."
+msgstr ""
+
+#: ../../source/tutorial.rst:164
+msgid "Footer Information"
+msgstr ""
+
+#: ../../source/tutorial.rst:166
+msgid "Copyright © 2024 Your Company Name. All rights reserved."
+msgstr ""
+
+#: ../../source/tutorial.rst:168
+msgid "Terms of Service | Privacy Policy | Contact Us"
 msgstr ""
 
