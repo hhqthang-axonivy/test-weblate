@@ -1,0 +1,42 @@
+name: i18n
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+  schedule:
+    - cron:  '21 21 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - name: POT Templates
+      run: | 
+        docker run -v .:/doc -u $(id -u) axonivy/build-container:read-the-docs-2 make \
+          gettext BASEDIR=/doc GETTEXT_COMPACT=user-guide
+    - name: Update PO Languages
+      run: |
+        docker run -v .:/doc -u $(id -u) axonivy/build-container:read-the-docs-2 make\
+          generatePO BASEDIR=/doc LOCALEDIR=/doc/locale LANGUAGE=ja
+    - name: Locale Diff
+      id: locale-diff
+      run: |
+        echo "LOCALE_DIFF<<EOF" >> $GITHUB_ENV
+        git --no-pager status -s locale/* >> $GITHUB_ENV
+        echo "EOF" >> $GITHUB_ENV
+    - name: Create Pull Request
+      if: ${{ env.LOCALE_DIFF != '' }}
+      run: |
+        echo "committing changes:\n ${{ env.LOCALE_DIFF }}"
+        git config user.email "${{ github.actor }}@users.noreply.github.com"
+        git config user.name "${{ github.actor }}"
+        git checkout -b languages
+        git add locale/*
+        git commit -m "update PO language files"
+        git push -u -f origin languages
+        gh pr create --title "Language update :globe_with_meridians:"\
+          --body "auto-updates language files"\
+          --label "i18n"
