@@ -40,3 +40,5 @@ jobs:
         gh pr create --title "Language update :globe_with_meridians:"\
           --body "auto-updates language files"\
           --label "i18n"
+      env:
+        GH_TOKEN: ${{ github.token }}
