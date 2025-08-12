@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-12 04:53+0000\n"
+"POT-Creation-Date: 2025-08-12 04:55+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -981,7 +981,7 @@ msgid ""
 msgstr ""
 
 #: ../../source/rag-pipeline.rst:301
-msgid "Last updated: |date| Version: 1.0 Huynh Huu Quyet Thang"
+msgid "Last updated: |date| Version: 1.0 Huynh Huu Quyet Thang - Ivy"
 msgstr ""
 
 #: ../../source/rag-pipeline.rst:3
@@ -1867,5 +1867,8 @@ msgid "Terms of Service | Privacy Policy | Contact Us"
 msgstr ""
 
 #~ msgid "Welcome to Our Application"
+#~ msgstr ""
+
+#~ msgid "Last updated: |date| Version: 1.0 Huynh Huu Quyet Thang"
 #~ msgstr ""
 
