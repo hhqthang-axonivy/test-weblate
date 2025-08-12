@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-08 10:22+0000\n"
+"POT-Creation-Date: 2025-08-12 04:25+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -36,7 +36,7 @@ msgstr ""
 msgid "API Reference and Developer Guide"
 msgstr ""
 
-#: ../../source/api-guide.rst:11
+#: ../../source/api-guide.rst:11 ../../source/rag-pipeline.rst:10
 msgid "Overview"
 msgstr ""
 
@@ -584,6 +584,14 @@ msgstr ""
 msgid "*Last updated: March 15, 2024 | API Version: 2.1.0* ```"
 msgstr ""
 
+#: ../../source/claude.rst:8
+msgid ""
+"This documentation reflects Claude Sonnet 4 capabilities as of August "
+"2025. Features and capabilities may evolve over time. .. warning:: Always"
+" verify important information, especially for critical decisions or "
+"recent events that may have occurred after the knowledge cutoff date."
+msgstr ""
+
 #: ../../source/index.rst:178
 msgid "© 2024 Your Company Name. All rights reserved."
 msgstr ""
@@ -914,7 +922,7 @@ msgstr ""
 msgid "Browser: Chrome 90+, Firefox 88+, Safari 14+"
 msgstr ""
 
-#: ../../source/index.rst:160
+#: ../../source/index.rst:160 ../../source/rag-pipeline.rst:285
 msgid "Conclusion"
 msgstr ""
 
@@ -951,6 +959,559 @@ msgstr ""
 
 #: ../../source/index.rst:175
 msgid "**Version:** 2.1.0"
+msgstr ""
+
+#: ../../source/rag.rst:5
+msgid ""
+"What is RAG? Retrieval-Augmented Generation (RAG) is a technique that "
+"combines information retrieval with language generation to produce more "
+"accurate and contextual responses. Core Concept"
+msgstr ""
+
+#: ../../source/rag.rst:9
+msgid "Keyword Search and Semantic Search"
+msgstr ""
+
+#: ../../source/rag.rst:12
+msgid ""
+"RAG is particularly effective for knowledge-intensive tasks where "
+"accuracy and source attribution are important. .. warning:: Quality of "
+"retrieved documents directly impacts the final response quality. Ensure "
+"your knowledge base is well-curated and up-to-date."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:301
+msgid "Last updated: |date| Version: 1.0"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:3
+msgid "RAG Architecture Guide"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:7
+msgid "Table of Contents"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:12
+msgid ""
+"Retrieval-Augmented Generation (RAG) is a powerful architectural pattern "
+"that combines the strengths of retrieval-based and generation-based "
+"approaches in natural language processing. This architecture enables AI "
+"systems to access and utilize external knowledge sources during text "
+"generation, significantly improving accuracy and reducing hallucinations."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:15
+msgid ""
+"RAG architecture is particularly effective for knowledge-intensive tasks "
+"where up-to-date or domain-specific information is crucial."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:18
+msgid "Key Components"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:20
+msgid ""
+"The RAG architecture consists of several interconnected components that "
+"work together to provide enhanced text generation capabilities."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:23
+msgid "Document Store"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:25
+msgid ""
+"The document store serves as the knowledge repository containing relevant"
+" documents, passages, or structured data. Common implementations include:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:27
+msgid "**Vector databases** (e.g., Pinecone, Weaviate, Chroma)"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:28
+msgid "**Search engines** (e.g., Elasticsearch, OpenSearch)"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:29
+msgid "**Traditional databases** with full-text search capabilities"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:32
+msgid "Document Retrieval System"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:34
+msgid ""
+"The retrieval system is responsible for finding relevant information "
+"based on user queries. It typically employs:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:36
+msgid "**Dense retrieval** using embedding models"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:37
+msgid "**Sparse retrieval** using keyword-based methods (BM25, TF-IDF)"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:38
+msgid "**Hybrid approaches** combining both dense and sparse methods"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:56
+msgid "Text Generation Model"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:58
+msgid ""
+"The generation component processes the retrieved context along with the "
+"original query to produce coherent responses. Modern implementations "
+"often use:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:60
+msgid "Large Language Models (LLMs) like GPT, Claude, or Llama"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:61
+msgid "Transformer-based architectures"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:62
+msgid "Fine-tuned models for specific domains"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:65
+msgid "Architecture Patterns"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:68
+msgid "Basic RAG Pipeline"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:70
+msgid "The standard RAG pipeline follows this sequence:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:80
+msgid "The process can be described as follows:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:82
+msgid "**Query Processing**: Parse and understand the user's question"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:83
+msgid "**Document Retrieval**: Find relevant documents from the knowledge base"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:84
+msgid "**Context Preparation**: Format retrieved documents for the generator"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:85
+msgid "**Response Generation**: Produce an answer using both query and context"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:86
+msgid "**Post-processing**: Refine and validate the generated response"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:89
+msgid "Advanced RAG Variants"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:92
+msgid "Iterative RAG"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:94
+msgid "Iterative RAG allows for multiple rounds of retrieval and generation:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:97
+msgid ""
+"Iterative approaches may increase latency but can improve answer quality "
+"for complex questions."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:99
+msgid "**Benefits:**"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:101
+msgid "Better handling of multi-step reasoning"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:102
+msgid "Ability to refine search queries based on partial answers"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:103
+msgid "Improved coverage of complex topics"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:105
+msgid "**Implementation considerations:**"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:107
+msgid "Query refinement strategies"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:108
+msgid "Stopping criteria for iterations"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:109
+msgid "Context window management"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:112
+msgid "Self-RAG"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:114
+msgid ""
+"Self-RAG incorporates self-reflection mechanisms where the model "
+"evaluates its own outputs:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:126
+msgid "Implementation Best Practices"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:129
+msgid "Data Preparation"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:131
+msgid ""
+"Effective RAG implementation requires careful attention to data "
+"preparation:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:133
+msgid "**Document Chunking Strategies:**"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:135
+msgid "Fixed-size chunks (200-500 tokens)"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:136
+msgid "Semantic chunking based on paragraphs or sections"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:137
+msgid "Overlapping chunks to preserve context"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:139
+msgid "**Embedding Quality:**"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:141
+msgid "Choose domain-appropriate embedding models"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:142
+msgid "Consider fine-tuning embeddings on domain data"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:143
+msgid "Implement embedding model versioning"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:146
+msgid "Retrieval Optimization"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:148
+msgid "To optimize retrieval performance:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:151
+msgid ""
+"Always benchmark different retrieval methods on your specific use case "
+"and dataset."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:153
+msgid "**Hybrid Search**: Combine dense and sparse retrieval methods"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:154
+msgid "**Query Expansion**: Use synonyms and related terms"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:155
+msgid "**Re-ranking**: Apply additional scoring models post-retrieval"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:156
+msgid ""
+"**Negative Sampling**: Include examples of irrelevant documents during "
+"training"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:159
+msgid "Generation Quality"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:161
+msgid "Improve generation quality through:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:163
+msgid "**Prompt Engineering**: Design effective system prompts"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:164
+msgid "**Context Formatting**: Structure retrieved information clearly"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:165
+msgid "**Temperature Tuning**: Balance creativity and accuracy"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:166
+msgid "**Output Validation**: Implement fact-checking mechanisms"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:169
+msgid "Evaluation Metrics"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:171
+msgid "Measuring RAG system performance requires multiple metrics:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:174
+msgid "Retrieval Metrics"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:176
+msgid "**Precision@K**: Fraction of relevant documents in top-K results"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:177
+msgid "**Recall@K**: Fraction of all relevant documents found in top-K"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:178
+msgid ""
+"**Mean Reciprocal Rank (MRR)**: Average reciprocal rank of first relevant"
+" result"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:181
+msgid "Generation Metrics"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:183
+msgid "**BLEU Score**: N-gram overlap with reference answers"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:184
+msgid "**ROUGE Score**: Recall-oriented evaluation"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:185
+msgid "**BERTScore**: Semantic similarity using contextual embeddings"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:186
+msgid "**Human Evaluation**: Expert assessment of accuracy and relevance"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:189
+msgid ""
+"For more detailed evaluation frameworks, see the `BEIR benchmark "
+"<https://github.com/beir-cellar/beir>`_ for retrieval evaluation."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:192
+msgid "Common Challenges"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:195
+msgid "Context Window Limitations"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:197
+msgid ""
+"Modern language models have finite context windows, creating challenges "
+"for RAG systems:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:199
+msgid "**Solutions:**"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:201
+msgid "Implement intelligent document ranking and filtering"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:202
+msgid "Use summarization for long documents"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:203
+msgid "Consider sliding window approaches for very long contexts"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:206
+msgid "Retrieval Quality Issues"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:208
+msgid "Poor retrieval can significantly impact overall system performance:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:210
+msgid "**Common problems:**"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:212
+msgid "Semantic mismatch between query and documents"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:213
+msgid "Outdated or irrelevant information in knowledge base"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:214
+msgid "Insufficient context diversity"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:216
+msgid "**Mitigation strategies:**"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:218
+msgid "Regular knowledge base updates"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:219
+msgid "Query augmentation and reformulation"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:220
+msgid "Multi-vector retrieval approaches"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:223
+msgid "Integration Patterns"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:226
+msgid "API Design"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:228
+msgid "A typical RAG service API might include these endpoints:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:242
+msgid "Response format:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:259
+msgid "Monitoring and Observability"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:261
+msgid "Implement comprehensive monitoring for production RAG systems:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:263
+msgid "**Query analytics**: Track query patterns and performance"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:264
+msgid "**Retrieval metrics**: Monitor precision and recall over time"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:265
+msgid "**Generation quality**: Assess answer relevance and accuracy"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:266
+msgid "**System performance**: Latency, throughput, and error rates"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:269
+msgid "Future Directions"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:271
+msgid "The RAG landscape continues to evolve with several promising directions:"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:273
+msgid "**Emerging Trends:**"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:275
+msgid "Integration with multimodal data (images, audio, video)"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:276
+msgid "Real-time knowledge graph updates"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:277
+msgid "Federated RAG across multiple organizations"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:278
+msgid "Edge deployment for privacy-sensitive applications"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:280
+msgid "Research Opportunity"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:282
+msgid ""
+"Consider exploring the intersection of RAG with reasoning capabilities, "
+"such as chain-of-thought prompting and tool use."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:287
+msgid ""
+"RAG architecture represents a significant advancement in building AI "
+"systems that can leverage external knowledge effectively. Success with "
+"RAG requires careful attention to each component: retrieval quality, "
+"generation capabilities, and the integration between them."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:289
+msgid ""
+"The key to successful RAG implementation lies in understanding your "
+"specific use case requirements and iterating on the system design based "
+"on empirical evaluation results."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:292
+msgid "References"
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:294
+msgid ""
+"Patrick Lewis et al. \"Retrieval-Augmented Generation for Knowledge-"
+"Intensive NLP Tasks.\" *Advances in Neural Information Processing "
+"Systems*, 2020."
+msgstr ""
+
+#: ../../source/rag-pipeline.rst:296
+msgid ""
+"Yunfan Gao et al. \"Retrieval-Augmented Generation for Large Language "
+"Models: A Survey.\" *arXiv preprint arXiv:2312.10997*, 2023."
 msgstr ""
 
 #: ../../source/tutorial.rst:4
