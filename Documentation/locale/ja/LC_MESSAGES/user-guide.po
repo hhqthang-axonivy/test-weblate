@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-12 06:51+0000\n"
+"POT-Creation-Date: 2025-08-12 07:42+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -22,6 +22,10 @@ msgstr ""
 
 #: ../../source/ai/transformer.rst:3
 msgid "Transformer Architecture Guide"
+msgstr ""
+
+#: ../../source/ai/transformer.rst:5
+msgid "WawaTeam"
 msgstr ""
 
 #: ../../source/api-guide.rst:-1
