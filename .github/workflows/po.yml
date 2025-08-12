@@ -22,7 +22,7 @@ jobs:
         docker run -v .:/doc -u $(id -u) axonivy/build-container:read-the-docs-2 make \
           gettext BASEDIR=/doc GETTEXT_COMPACT=user-guide
     - name: Update PO Languages
-      working-directory: .
+      working-directory: Documentation
       run: |
         docker run -v .:/doc -u $(id -u) axonivy/build-container:read-the-docs-2 make\
           generatePO BASEDIR=/doc LOCALEDIR=/doc/locale LANGUAGE=ja
