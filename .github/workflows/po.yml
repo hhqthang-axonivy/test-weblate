@@ -15,21 +15,25 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: POT Templates
+      working-directory: .
       run: | 
         docker run -v .:/doc -u $(id -u) axonivy/build-container:read-the-docs-2 make \
           gettext BASEDIR=/doc GETTEXT_COMPACT=user-guide
     - name: Update PO Languages
+      working-directory: .
       run: |
         docker run -v .:/doc -u $(id -u) axonivy/build-container:read-the-docs-2 make\
           generatePO BASEDIR=/doc LOCALEDIR=/doc/locale LANGUAGE=ja
     - name: Locale Diff
       id: locale-diff
+      working-directory: .
       run: |
         echo "LOCALE_DIFF<<EOF" >> $GITHUB_ENV
         git --no-pager status -s locale/* >> $GITHUB_ENV
         echo "EOF" >> $GITHUB_ENV
     - name: Create Pull Request
       if: ${{ env.LOCALE_DIFF != '' }}
+      working-directory: .
       run: |
         echo "committing changes:\n ${{ env.LOCALE_DIFF }}"
         git config user.email "${{ github.actor }}@users.noreply.github.com"
