@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-08 10:22+0000\n"
+"POT-Creation-Date: 2025-08-12 04:40+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -584,6 +584,14 @@ msgstr ""
 msgid "*Last updated: March 15, 2024 | API Version: 2.1.0* ```"
 msgstr ""
 
+#: ../../source/claude.rst:8
+msgid ""
+"This documentation reflects Claude Sonnet 4 capabilities as of August "
+"2025. Features and capabilities may evolve over time. .. warning:: Always"
+" verify important information, especially for critical decisions or "
+"recent events that may have occurred after the knowledge cutoff date."
+msgstr ""
+
 #: ../../source/index.rst:178
 msgid "© 2024 Your Company Name. All rights reserved."
 msgstr ""
@@ -951,6 +959,25 @@ msgstr ""
 
 #: ../../source/index.rst:175
 msgid "**Version:** 2.1.0"
+msgstr ""
+
+#: ../../source/rag.rst:5
+msgid ""
+"What is RAG? Retrieval-Augmented Generation (RAG) is a technique that "
+"combines information retrieval with language generation to produce more "
+"accurate and contextual responses. Core Concept"
+msgstr ""
+
+#: ../../source/rag.rst:9
+msgid "Keyword Search and Semantic Search"
+msgstr ""
+
+#: ../../source/rag.rst:12
+msgid ""
+"RAG is particularly effective for knowledge-intensive tasks where "
+"accuracy and source attribution are important. .. warning:: Quality of "
+"retrieved documents directly impacts the final response quality. Ensure "
+"your knowledge base is well-curated and up-to-date."
 msgstr ""
 
 #: ../../source/tutorial.rst:4
