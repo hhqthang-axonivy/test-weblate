@@ -300,3 +300,4 @@ References
 .. footer::
    Last updated: |date|
    Version: 1.0
+   Huynh Huu Quyet Thang
