@@ -5,6 +5,8 @@ on:
   push:
     branches:
       - master
+    paths:
+      - 'Documentation/source/**'
   workflow_dispatch:
   schedule:
     - cron:  '21 21 * * *'
@@ -15,7 +17,7 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: POT Templates
-      working-directory: .
+      working-directory: Documentation
       run: | 
         docker run -v .:/doc -u $(id -u) axonivy/build-container:read-the-docs-2 make \
           gettext BASEDIR=/doc GETTEXT_COMPACT=user-guide
@@ -26,7 +28,7 @@ jobs:
           generatePO BASEDIR=/doc LOCALEDIR=/doc/locale LANGUAGE=ja
     - name: Locale Diff
       id: locale-diff
-      working-directory: .
+      working-directory: Documentation
       run: |
         echo "LOCALE_DIFF<<EOF" >> $GITHUB_ENV
         git --no-pager status -s locale/* >> $GITHUB_ENV
