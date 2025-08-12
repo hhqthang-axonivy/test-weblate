@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2025-08-12 07:42+0000\n"
+"POT-Creation-Date: 2025-08-12 08:07+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language: ja\n"
@@ -26,6 +26,22 @@ msgstr ""
 
 #: ../../source/ai/transformer.rst:5
 msgid "WawaTeam"
+msgstr ""
+
+#: ../../source/ai/transformer.rst:7
+msgid "AxonActive"
+msgstr ""
+
+#: ../../source/ai/transformer.rst:9
+msgid "Temperature vs TopP vs TopK"
+msgstr ""
+
+#: ../../source/ai/transformer.rst:11
+msgid "Large Language Model"
+msgstr ""
+
+#: ../../source/ai/transformer.rst:13
+msgid "AxonInActive"
 msgstr ""
 
 #: ../../source/api-guide.rst:-1
