@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 10:04+0000\n"
-"PO-Revision-Date: 2026-04-23 10:11+0000\n"
+"PO-Revision-Date: 2026-04-23 10:48+0000\n"
 "Last-Translator: THẮNG HUỲNH HỮU QUYẾT <hhqthang@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/thang-test/"
 "thang-test/ja/>\n"
@@ -179,7 +179,7 @@ msgstr ""
 
 #: ../../source/api-guide.rst:157
 msgid "Standard Error Response"
-msgstr ""
+msgstr "標準エラー応答"
 
 #: ../../source/api-guide.rst:159
 msgid "All API errors follow a consistent format:"
@@ -1280,7 +1280,7 @@ msgstr ""
 msgid ""
 "A: Absolutely! We use industry-standard encryption to protect your "
 "information."
-msgstr ""
+msgstr "A:絶対に! お客様の情報を保護するために業界標準の暗号化を使用しています."
 
 #: ../../source/tutorial.rst:148
 msgid "About"
