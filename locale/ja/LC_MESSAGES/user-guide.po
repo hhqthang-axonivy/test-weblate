@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 04:56+0000\n"
+"POT-Creation-Date: 2026-04-23 10:04+0000\n"
 "PO-Revision-Date: 2026-04-23 10:07+0000\n"
 "Last-Translator: THẮNG HUỲNH HỮU QUYẾT <hhqthang@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/thang-test/"
@@ -137,7 +137,11 @@ msgstr ""
 msgid "Huynh Huu Quyet Thang"
 msgstr "Huynh Huu Quyet, オーストラリア ログイン"
 
-#: ../../source/api-guide.rst:123
+#: ../../source/api-guide.rst:121
+msgid "Chu Hung Nam"
+msgstr ""
+
+#: ../../source/api-guide.rst:125
 msgid "Retrieve a list of projects accessible to the authenticated user."
 msgstr ""
 
@@ -145,424 +149,424 @@ msgstr ""
 msgid "Query Parameters"
 msgstr ""
 
-#: ../../source/api-guide.rst:125
+#: ../../source/api-guide.rst:127
 msgid "Number of results per page (default: 50, max: 100)"
 msgstr ""
 
-#: ../../source/api-guide.rst:126
+#: ../../source/api-guide.rst:128
 msgid "Pagination offset (default: 0)"
 msgstr ""
 
-#: ../../source/api-guide.rst:127
+#: ../../source/api-guide.rst:129
 msgid "Filter by project status (active, archived, draft)"
 msgstr ""
 
-#: ../../source/api-guide.rst:128
+#: ../../source/api-guide.rst:130
 msgid "Search projects by name or description"
 msgstr ""
 
-#: ../../source/api-guide.rst:135
+#: ../../source/api-guide.rst:137
 msgid "Create a new project."
 msgstr ""
 
-#: ../../source/api-guide.rst:137
+#: ../../source/api-guide.rst:139
 msgid "**Required Fields:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:152 ../../source/tutorial.rst:110
+#: ../../source/api-guide.rst:154 ../../source/tutorial.rst:110
 msgid "Error Handling"
 msgstr ""
 
-#: ../../source/api-guide.rst:155
+#: ../../source/api-guide.rst:157
 msgid "Standard Error Response"
 msgstr ""
 
-#: ../../source/api-guide.rst:157
+#: ../../source/api-guide.rst:159
 msgid "All API errors follow a consistent format:"
 msgstr ""
 
-#: ../../source/api-guide.rst:176
+#: ../../source/api-guide.rst:178
 msgid "Common Error Codes"
 msgstr ""
 
-#: ../../source/api-guide.rst:179
+#: ../../source/api-guide.rst:181
 msgid "AUTHENTICATION_REQUIRED"
 msgstr ""
 
-#: ../../source/api-guide.rst:181
+#: ../../source/api-guide.rst:183
 msgid "The request requires authentication. Include a valid API token."
 msgstr ""
 
-#: ../../source/api-guide.rst:182
+#: ../../source/api-guide.rst:184
 msgid "INSUFFICIENT_PERMISSIONS"
 msgstr ""
 
-#: ../../source/api-guide.rst:184
+#: ../../source/api-guide.rst:186
 msgid "The authenticated user lacks permission for this operation."
 msgstr ""
 
-#: ../../source/api-guide.rst:185
+#: ../../source/api-guide.rst:187
 msgid "VALIDATION_ERROR"
 msgstr ""
 
-#: ../../source/api-guide.rst:187
+#: ../../source/api-guide.rst:189
 msgid ""
 "Request data validation failed. Check the details array for specific field "
 "errors."
 msgstr ""
 
-#: ../../source/api-guide.rst:188
+#: ../../source/api-guide.rst:190
 msgid "RATE_LIMIT_EXCEEDED"
 msgstr ""
 
-#: ../../source/api-guide.rst:190
+#: ../../source/api-guide.rst:192
 msgid "Too many requests in a short time period. Wait before retrying."
 msgstr ""
 
-#: ../../source/api-guide.rst:191
+#: ../../source/api-guide.rst:193
 msgid "RESOURCE_NOT_FOUND"
 msgstr ""
 
-#: ../../source/api-guide.rst:193
+#: ../../source/api-guide.rst:195
 msgid "The requested resource does not exist or is not accessible."
 msgstr ""
 
-#: ../../source/api-guide.rst:194
+#: ../../source/api-guide.rst:196
 msgid "SERVER_ERROR"
 msgstr ""
 
-#: ../../source/api-guide.rst:196
+#: ../../source/api-guide.rst:198
 msgid "An internal server error occurred. Contact support if this persists."
 msgstr ""
 
-#: ../../source/api-guide.rst:199
+#: ../../source/api-guide.rst:201
 msgid "Rate Limiting"
 msgstr ""
 
-#: ../../source/api-guide.rst:201
+#: ../../source/api-guide.rst:203
 msgid "API requests are subject to rate limiting:"
 msgstr ""
 
-#: ../../source/api-guide.rst:203
+#: ../../source/api-guide.rst:205
 msgid "Rate Limits by Plan"
 msgstr ""
 
-#: ../../source/api-guide.rst:207
+#: ../../source/api-guide.rst:209
 msgid "Plan Type"
 msgstr ""
 
-#: ../../source/api-guide.rst:208
+#: ../../source/api-guide.rst:210
 msgid "Requests/Hour"
 msgstr ""
 
-#: ../../source/api-guide.rst:209
+#: ../../source/api-guide.rst:211
 msgid "Burst Limit"
 msgstr ""
 
-#: ../../source/api-guide.rst:210
+#: ../../source/api-guide.rst:212
 msgid "Overage Policy"
 msgstr ""
 
-#: ../../source/api-guide.rst:211
+#: ../../source/api-guide.rst:213
 msgid "Free"
 msgstr ""
 
-#: ../../source/api-guide.rst:212
+#: ../../source/api-guide.rst:214
 msgid "1,000"
 msgstr ""
 
-#: ../../source/api-guide.rst:213
+#: ../../source/api-guide.rst:215
 msgid "100/minute"
 msgstr ""
 
-#: ../../source/api-guide.rst:214
+#: ../../source/api-guide.rst:216
 msgid "Block requests"
 msgstr ""
 
-#: ../../source/api-guide.rst:215
+#: ../../source/api-guide.rst:217
 msgid "Professional"
 msgstr ""
 
-#: ../../source/api-guide.rst:216
+#: ../../source/api-guide.rst:218
 msgid "10,000"
 msgstr ""
 
-#: ../../source/api-guide.rst:217
+#: ../../source/api-guide.rst:219
 msgid "500/minute"
 msgstr ""
 
-#: ../../source/api-guide.rst:218
+#: ../../source/api-guide.rst:220
 msgid "Charge for overage"
 msgstr ""
 
-#: ../../source/api-guide.rst:219
+#: ../../source/api-guide.rst:221
 msgid "Enterprise"
 msgstr ""
 
-#: ../../source/api-guide.rst:220
+#: ../../source/api-guide.rst:222
 msgid "100,000"
 msgstr ""
 
-#: ../../source/api-guide.rst:221
+#: ../../source/api-guide.rst:223
 msgid "2,000/minute"
 msgstr ""
 
-#: ../../source/api-guide.rst:222
+#: ../../source/api-guide.rst:224
 msgid "Custom limits"
 msgstr ""
 
-#: ../../source/api-guide.rst:224
+#: ../../source/api-guide.rst:226
 msgid "Rate limit information is included in response headers:"
 msgstr ""
 
-#: ../../source/api-guide.rst:234
+#: ../../source/api-guide.rst:236
 msgid "SDK Examples"
 msgstr ""
 
-#: ../../source/api-guide.rst:237
+#: ../../source/api-guide.rst:239
 msgid "Python SDK"
 msgstr ""
 
-#: ../../source/api-guide.rst:272
+#: ../../source/api-guide.rst:274
 msgid "JavaScript SDK"
 msgstr ""
 
-#: ../../source/api-guide.rst:315
+#: ../../source/api-guide.rst:317
 msgid "Webhooks"
 msgstr ""
 
-#: ../../source/api-guide.rst:318
+#: ../../source/api-guide.rst:320
 msgid "Event Types"
 msgstr ""
 
-#: ../../source/api-guide.rst:320
+#: ../../source/api-guide.rst:322
 msgid "Our platform sends webhooks for the following events:"
 msgstr ""
 
-#: ../../source/api-guide.rst:325
+#: ../../source/api-guide.rst:327
 msgid "``project.created``"
 msgstr ""
 
-#: ../../source/api-guide.rst:326
+#: ../../source/api-guide.rst:328
 msgid "``project.updated``"
 msgstr ""
 
-#: ../../source/api-guide.rst:327
+#: ../../source/api-guide.rst:329
 msgid "``project.deleted``"
 msgstr ""
 
-#: ../../source/api-guide.rst:328
+#: ../../source/api-guide.rst:330
 msgid "``user.registered``"
 msgstr ""
 
-#: ../../source/api-guide.rst:329
+#: ../../source/api-guide.rst:331
 msgid "``user.updated``"
 msgstr ""
 
-#: ../../source/api-guide.rst:330
+#: ../../source/api-guide.rst:332
 msgid "``deployment.started``"
 msgstr ""
 
-#: ../../source/api-guide.rst:331
+#: ../../source/api-guide.rst:333
 msgid "``deployment.completed``"
 msgstr ""
 
-#: ../../source/api-guide.rst:332
+#: ../../source/api-guide.rst:334
 msgid "``deployment.failed``"
 msgstr ""
 
-#: ../../source/api-guide.rst:335
+#: ../../source/api-guide.rst:337
 msgid "Webhook Configuration"
 msgstr ""
 
-#: ../../source/api-guide.rst:337
+#: ../../source/api-guide.rst:339
 msgid "Configure webhooks in your project settings:"
 msgstr ""
 
-#: ../../source/api-guide.rst:339
+#: ../../source/api-guide.rst:341
 msgid "Navigate to **Project Settings** → **Webhooks**"
 msgstr ""
 
-#: ../../source/api-guide.rst:340
+#: ../../source/api-guide.rst:342
 msgid "Click **Add Webhook**"
 msgstr ""
 
-#: ../../source/api-guide.rst:341
+#: ../../source/api-guide.rst:343
 msgid "Enter your endpoint URL"
 msgstr ""
 
-#: ../../source/api-guide.rst:342
+#: ../../source/api-guide.rst:344
 msgid "Select events to subscribe to"
 msgstr ""
 
-#: ../../source/api-guide.rst:343
+#: ../../source/api-guide.rst:345
 msgid "Configure retry settings"
 msgstr ""
 
-#: ../../source/api-guide.rst:346
+#: ../../source/api-guide.rst:348
 msgid ""
 "Webhook endpoints must respond with HTTP 200-299 status codes within 10 "
 "seconds, or the delivery will be considered failed."
 msgstr ""
 
-#: ../../source/api-guide.rst:349
+#: ../../source/api-guide.rst:351
 msgid "Testing and Development"
 msgstr ""
 
-#: ../../source/api-guide.rst:352
+#: ../../source/api-guide.rst:354
 msgid "Sandbox Environment"
 msgstr ""
 
-#: ../../source/api-guide.rst:354
+#: ../../source/api-guide.rst:356
 msgid "Use our sandbox environment for testing:"
 msgstr ""
 
-#: ../../source/api-guide.rst:365
+#: ../../source/api-guide.rst:367
 msgid "Mock Data"
 msgstr ""
 
-#: ../../source/api-guide.rst:367
+#: ../../source/api-guide.rst:369
 msgid "The sandbox includes realistic mock data:"
 msgstr ""
 
-#: ../../source/api-guide.rst:369
+#: ../../source/api-guide.rst:371
 msgid "50+ sample users"
 msgstr ""
 
-#: ../../source/api-guide.rst:370
+#: ../../source/api-guide.rst:372
 msgid "100+ sample projects"
 msgstr ""
 
-#: ../../source/api-guide.rst:371
+#: ../../source/api-guide.rst:373
 msgid "Realistic timestamps and relationships"
 msgstr ""
 
-#: ../../source/api-guide.rst:372
+#: ../../source/api-guide.rst:374
 msgid "Predictable responses for testing edge cases"
 msgstr ""
 
-#: ../../source/api-guide.rst:375
+#: ../../source/api-guide.rst:377
 msgid "Support and Resources"
 msgstr ""
 
-#: ../../source/api-guide.rst:378
+#: ../../source/api-guide.rst:380
 msgid "Getting Help"
 msgstr ""
 
-#: ../../source/api-guide.rst:381
+#: ../../source/api-guide.rst:383
 msgid ""
 "Our support team is available 24/7 for Enterprise customers, and during "
 "business hours (9 AM - 6 PM UTC) for all other plans."
 msgstr ""
 
-#: ../../source/api-guide.rst:383
+#: ../../source/api-guide.rst:385
 msgid "**Documentation:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:384
+#: ../../source/api-guide.rst:386
 msgid "API Reference: https://docs.example.com/api"
 msgstr ""
 
-#: ../../source/api-guide.rst:385
+#: ../../source/api-guide.rst:387
 msgid "Tutorials: https://docs.example.com/tutorials"
 msgstr ""
 
-#: ../../source/api-guide.rst:386
+#: ../../source/api-guide.rst:388
 msgid "Code Examples: https://github.com/example/api-examples"
 msgstr ""
 
-#: ../../source/api-guide.rst:388
+#: ../../source/api-guide.rst:390
 msgid "**Community:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:389
+#: ../../source/api-guide.rst:391
 msgid "Stack Overflow: Tag your questions with ``example-api``"
 msgstr ""
 
-#: ../../source/api-guide.rst:390
+#: ../../source/api-guide.rst:392
 msgid "Discord: https://discord.gg/example-developers"
 msgstr ""
 
-#: ../../source/api-guide.rst:391
+#: ../../source/api-guide.rst:393
 msgid "GitHub Discussions: https://github.com/example/api-feedback"
 msgstr ""
 
-#: ../../source/api-guide.rst:393
+#: ../../source/api-guide.rst:395
 msgid "**Direct Support:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:394
+#: ../../source/api-guide.rst:396
 msgid "Email: developers@example.com"
 msgstr ""
 
-#: ../../source/api-guide.rst:395
+#: ../../source/api-guide.rst:397
 msgid "Support Portal: https://support.example.com"
 msgstr ""
 
-#: ../../source/api-guide.rst:398
+#: ../../source/api-guide.rst:400
 msgid "Changelog"
 msgstr ""
 
-#: ../../source/api-guide.rst:401
+#: ../../source/api-guide.rst:403
 msgid "Version 2.1 (March 2024)"
 msgstr ""
 
-#: ../../source/api-guide.rst:403
+#: ../../source/api-guide.rst:405
 msgid "**New Features:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:404
+#: ../../source/api-guide.rst:406
 msgid "Added batch operations for user management"
 msgstr ""
 
-#: ../../source/api-guide.rst:405
+#: ../../source/api-guide.rst:407
 msgid "Improved rate limiting with burst capacity"
 msgstr ""
 
-#: ../../source/api-guide.rst:406
+#: ../../source/api-guide.rst:408
 msgid "New webhook event types for deployments"
 msgstr ""
 
-#: ../../source/api-guide.rst:408
+#: ../../source/api-guide.rst:410
 msgid "**Breaking Changes:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:409
+#: ../../source/api-guide.rst:411
 msgid "Deprecated ``/api/v1/legacy`` endpoints (removal planned for v3.0)"
 msgstr ""
 
-#: ../../source/api-guide.rst:410
+#: ../../source/api-guide.rst:412
 msgid "Changed default pagination limit from 25 to 50"
 msgstr ""
 
-#: ../../source/api-guide.rst:412
+#: ../../source/api-guide.rst:414
 msgid "**Bug Fixes:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:413
+#: ../../source/api-guide.rst:415
 msgid "Fixed timezone handling in date filters"
 msgstr ""
 
-#: ../../source/api-guide.rst:414
+#: ../../source/api-guide.rst:416
 msgid "Resolved intermittent 500 errors in project creation"
 msgstr ""
 
-#: ../../source/api-guide.rst:416 ../../source/index.rst:171
+#: ../../source/api-guide.rst:418 ../../source/index.rst:171
 msgid "---"
 msgstr ""
 
-#: ../../source/api-guide.rst:418
+#: ../../source/api-guide.rst:420
 msgid "Stay Updated"
 msgstr ""
 
-#: ../../source/api-guide.rst:421
+#: ../../source/api-guide.rst:423
 msgid ""
 "Subscribe to our developer newsletter at https://example.com/developers/"
 "newsletter to receive updates about API changes, new features, and best "
 "practices."
 msgstr ""
 
-#: ../../source/api-guide.rst:423
+#: ../../source/api-guide.rst:425
 msgid "*Last updated: March 15, 2024 | API Version: 2.1.0* ```"
 msgstr ""
 
