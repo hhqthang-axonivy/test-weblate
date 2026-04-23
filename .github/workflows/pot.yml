@@ -1,0 +1,38 @@
+name: i18n-pots-only
+
+on:
+  push:
+    branches:
+      - master
+  workflow_dispatch:
+  schedule:
+    - cron: '21 21 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Generate POT Templates
+        run: |
+          docker run -v .:/doc -u $(id -u) axonivy/build-container:read-the-docs-2 make \
+            gettext BASEDIR=/doc GETTEXT_COMPACT=user-guide
+
+      - name: Commit POT changes
+        run: |
+          git config user.email "${{ github.actor }}@users.noreply.github.com"
+          git config user.name "${{ github.actor }}"
+          git checkout -b update-pot
+          git add locale/**/*.pot
+          if git diff --cached --quiet; then
+            echo "No POT changes to commit."
+            exit 0
+          fi
+          git commit -m "Update POT template files"
+          git push -u -f origin update-pot
+          gh pr create --title "Update POT templates :globe_with_meridians:" \
+            --body "Auto-updates POT template files" \
+            --label "i18n"
+        env:
+          GH_TOKEN: ${{ github.token }}
