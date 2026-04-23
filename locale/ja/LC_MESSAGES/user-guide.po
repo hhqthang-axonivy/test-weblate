@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 04:56+0000\n"
-"PO-Revision-Date: 2026-04-23 09:42+0000\n"
+"PO-Revision-Date: 2026-04-23 10:07+0000\n"
 "Last-Translator: THẮNG HUỲNH HỮU QUYẾT <hhqthang@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/thang-test/"
 "thang-test/ja/>\n"
@@ -71,11 +71,11 @@ msgstr ""
 
 #: ../../source/api-guide.rst:38
 msgid "OAuth 2.0 Flow"
-msgstr ""
+msgstr "OAuth 2.0 フロー"
 
 #: ../../source/api-guide.rst:40
 msgid "For applications requiring user authorization, use OAuth 2.0:"
-msgstr ""
+msgstr "ユーザー認証が必要なアプリケーションでは、OAuth 2.0 を使用します"
 
 #: ../../source/api-guide.rst:42
 msgid "**Authorization Request**"
