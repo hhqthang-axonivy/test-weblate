@@ -116,6 +116,7 @@ Retrieve information about the current user:
         }
       }
 
+Huynh Huu Quyet Thang
 
 .. http:get:: /api/v1/projects
 
