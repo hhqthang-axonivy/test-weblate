@@ -118,6 +118,8 @@ Retrieve information about the current user:
 
 Huynh Huu Quyet Thang
 
+Chu Hung Nam
+
 .. http:get:: /api/v1/projects
 
    Retrieve a list of projects accessible to the authenticated user.
