@@ -19,12 +19,17 @@ jobs:
           docker run -v .:/doc -u $(id -u) axonivy/build-container:read-the-docs-2 make \
             gettext BASEDIR=/doc GETTEXT_COMPACT=user-guide
 
+      - name: Move POT file to locale
+        run: |
+          mkdir -p locale
+          cp build/gettext/*.pot locale/
+
       - name: Commit POT changes
         run: |
           git config user.email "${{ github.actor }}@users.noreply.github.com"
           git config user.name "${{ github.actor }}"
           git checkout -b update-pot
-          git add locale/**/*.pot
+          git add locale/*.pot
           if git diff --cached --quiet; then
             echo "No POT changes to commit."
             exit 0

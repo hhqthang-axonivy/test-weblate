@@ -116,11 +116,6 @@ Retrieve information about the current user:
         }
       }
 
-Project Management
-------------------
-
-List Projects
-~~~~~~~~~~~~~
 
 .. http:get:: /api/v1/projects
 
