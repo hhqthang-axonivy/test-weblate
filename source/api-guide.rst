@@ -129,9 +129,6 @@ Chu Hung Nam
    :query string status: Filter by project status (active, archived, draft)
    :query string search: Search projects by name or description
 
-Create New Project
-~~~~~~~~~~~~~~~~~~
-
 .. http:post:: /api/v1/projects
 
    Create a new project.
