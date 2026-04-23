@@ -67,12 +67,6 @@ For applications requiring user authorization, use OAuth 2.0:
 API Endpoints
 =============
 
-User Management
----------------
-
-Get User Profile
-~~~~~~~~~~~~~~~~
-
 Retrieve information about the current user:
 
 .. http:get:: /api/v1/user
@@ -105,9 +99,6 @@ Retrieve information about the current user:
    :statuscode 200: Success
    :statuscode 401: Unauthorized - Invalid or missing token
    :statuscode 429: Rate limit exceeded
-
-Update User Profile
-~~~~~~~~~~~~~~~~~~~
 
 .. http:patch:: /api/v1/user
 

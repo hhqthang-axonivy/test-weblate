@@ -27,6 +27,19 @@ jobs:
         echo "LOCALE_DIFF<<EOF" >> $GITHUB_ENV
         git --no-pager status -s locale/* >> $GITHUB_ENV
         echo "EOF" >> $GITHUB_ENV
+    - name: Revert PO header
+      if: ${{ env.LOCALE_DIFF != '' }}
+      run: |
+        for po in locale/*/LC_MESSAGES/*.po; do
+          if git show HEAD:"$po" > /dev/null 2>&1; then
+            old_header_end=$(git show HEAD:"$po" | grep -n '^$' | head -1 | cut -d: -f1)
+            new_header_end=$(grep -n '^$' "$po" | head -1 | cut -d: -f1)
+            git show HEAD:"$po" | head -$((old_header_end - 1)) > /tmp/old_header
+            tail -n +$new_header_end "$po" > /tmp/body
+            cat /tmp/old_header /tmp/body > "$po"
+          fi
+          sed -i -e :a -e '/^[[:space:]]*$/{$d;N;ba' -e '}' "$po"
+        done
     - name: Create Pull Request
       if: ${{ env.LOCALE_DIFF != '' }}
       run: |
