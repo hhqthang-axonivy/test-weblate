@@ -150,9 +150,6 @@ Chu Hung Nam
 Error Handling
 ==============
 
-Standard Error Response
------------------------
-
 All API errors follow a consistent format:
 
 .. code-block:: json
