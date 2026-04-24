@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 10:04+0000\n"
+"POT-Creation-Date: 2026-04-23 22:03+0000\n"
 "PO-Revision-Date: 2026-04-23 10:28+0000\n"
 "Last-Translator: THẮNG HUỲNH HỮU QUYẾT <hhqthang@gmail.com>\n"
 "Language-Team: Vietnamese <https://hosted.weblate.org/projects/thang-test/"
@@ -40,7 +40,9 @@ msgid "Overview"
 msgstr ""
 
 #: ../../source/api-guide.rst:13
-msgid "This comprehensive guide covers our REST API, authentication methods, and integration examples for developers building applications with our platform."
+msgid ""
+"This comprehensive guide covers our REST API, authentication methods, and "
+"integration examples for developers building applications with our platform."
 msgstr ""
 
 #: ../../source/api-guide.rst:20
@@ -52,11 +54,15 @@ msgid "API Token Authentication"
 msgstr ""
 
 #: ../../source/api-guide.rst:25
-msgid "To authenticate with our API, you need to include your API token in the request headers:"
+msgid ""
+"To authenticate with our API, you need to include your API token in the "
+"request headers:"
 msgstr ""
 
 #: ../../source/api-guide.rst:35
-msgid "Keep your API tokens secure! Never expose them in client-side code or public repositories."
+msgid ""
+"Keep your API tokens secure! Never expose them in client-side code or public "
+"repositories."
 msgstr ""
 
 #: ../../source/api-guide.rst:38
@@ -103,8 +109,7 @@ msgstr ""
 msgid "Status Codes"
 msgstr ""
 
-#: ../../source/api-guide.rst:99
-#: ../../source/tutorial.rst:100
+#: ../../source/api-guide.rst:99 ../../source/tutorial.rst:100
 msgid "Success"
 msgstr ""
 
@@ -156,406 +161,413 @@ msgstr ""
 msgid "Search projects by name or description"
 msgstr ""
 
-#: ../../source/api-guide.rst:137
+#: ../../source/api-guide.rst:134
 msgid "Create a new project."
 msgstr ""
 
-#: ../../source/api-guide.rst:139
+#: ../../source/api-guide.rst:136
 msgid "**Required Fields:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:154
-#: ../../source/tutorial.rst:110
+#: ../../source/api-guide.rst:151 ../../source/tutorial.rst:110
 msgid "Error Handling"
 msgstr ""
 
-#: ../../source/api-guide.rst:157
-msgid "Standard Error Response"
-msgstr ""
-
-#: ../../source/api-guide.rst:159
+#: ../../source/api-guide.rst:153
 msgid "All API errors follow a consistent format:"
 msgstr ""
 
-#: ../../source/api-guide.rst:178
+#: ../../source/api-guide.rst:172
 msgid "Common Error Codes"
 msgstr ""
 
-#: ../../source/api-guide.rst:181
+#: ../../source/api-guide.rst:175
 msgid "AUTHENTICATION_REQUIRED"
 msgstr ""
 
-#: ../../source/api-guide.rst:183
+#: ../../source/api-guide.rst:177
 msgid "The request requires authentication. Include a valid API token."
 msgstr ""
 
-#: ../../source/api-guide.rst:184
+#: ../../source/api-guide.rst:178
 msgid "INSUFFICIENT_PERMISSIONS"
 msgstr ""
 
-#: ../../source/api-guide.rst:186
+#: ../../source/api-guide.rst:180
 msgid "The authenticated user lacks permission for this operation."
 msgstr ""
 
-#: ../../source/api-guide.rst:187
+#: ../../source/api-guide.rst:181
 msgid "VALIDATION_ERROR"
 msgstr ""
 
-#: ../../source/api-guide.rst:189
-msgid "Request data validation failed. Check the details array for specific field errors."
+#: ../../source/api-guide.rst:183
+msgid ""
+"Request data validation failed. Check the details array for specific field "
+"errors."
 msgstr ""
 
-#: ../../source/api-guide.rst:190
+#: ../../source/api-guide.rst:184
 msgid "RATE_LIMIT_EXCEEDED"
 msgstr ""
 
-#: ../../source/api-guide.rst:192
+#: ../../source/api-guide.rst:186
 msgid "Too many requests in a short time period. Wait before retrying."
 msgstr ""
 
-#: ../../source/api-guide.rst:193
+#: ../../source/api-guide.rst:187
 msgid "RESOURCE_NOT_FOUND"
 msgstr ""
 
-#: ../../source/api-guide.rst:195
+#: ../../source/api-guide.rst:189
 msgid "The requested resource does not exist or is not accessible."
 msgstr ""
 
-#: ../../source/api-guide.rst:196
+#: ../../source/api-guide.rst:190
 msgid "SERVER_ERROR"
 msgstr ""
 
-#: ../../source/api-guide.rst:198
+#: ../../source/api-guide.rst:192
 msgid "An internal server error occurred. Contact support if this persists."
 msgstr ""
 
-#: ../../source/api-guide.rst:201
+#: ../../source/api-guide.rst:195
 msgid "Rate Limiting"
 msgstr ""
 
-#: ../../source/api-guide.rst:203
+#: ../../source/api-guide.rst:197
 msgid "API requests are subject to rate limiting:"
 msgstr ""
 
-#: ../../source/api-guide.rst:205
+#: ../../source/api-guide.rst:199
 msgid "Rate Limits by Plan"
 msgstr ""
 
-#: ../../source/api-guide.rst:209
+#: ../../source/api-guide.rst:203
 msgid "Plan Type"
 msgstr ""
 
-#: ../../source/api-guide.rst:210
+#: ../../source/api-guide.rst:204
 msgid "Requests/Hour"
 msgstr ""
 
-#: ../../source/api-guide.rst:211
+#: ../../source/api-guide.rst:205
 msgid "Burst Limit"
 msgstr ""
 
-#: ../../source/api-guide.rst:212
+#: ../../source/api-guide.rst:206
 msgid "Overage Policy"
 msgstr ""
 
-#: ../../source/api-guide.rst:213
+#: ../../source/api-guide.rst:207
 msgid "Free"
 msgstr ""
 
-#: ../../source/api-guide.rst:214
+#: ../../source/api-guide.rst:208
 msgid "1,000"
 msgstr ""
 
-#: ../../source/api-guide.rst:215
+#: ../../source/api-guide.rst:209
 msgid "100/minute"
 msgstr ""
 
-#: ../../source/api-guide.rst:216
+#: ../../source/api-guide.rst:210
 msgid "Block requests"
 msgstr ""
 
-#: ../../source/api-guide.rst:217
+#: ../../source/api-guide.rst:211
 msgid "Professional"
 msgstr ""
 
-#: ../../source/api-guide.rst:218
+#: ../../source/api-guide.rst:212
 msgid "10,000"
 msgstr ""
 
-#: ../../source/api-guide.rst:219
+#: ../../source/api-guide.rst:213
 msgid "500/minute"
 msgstr ""
 
-#: ../../source/api-guide.rst:220
+#: ../../source/api-guide.rst:214
 msgid "Charge for overage"
 msgstr ""
 
-#: ../../source/api-guide.rst:221
+#: ../../source/api-guide.rst:215
 msgid "Enterprise"
 msgstr ""
 
-#: ../../source/api-guide.rst:222
+#: ../../source/api-guide.rst:216
 msgid "100,000"
 msgstr ""
 
-#: ../../source/api-guide.rst:223
+#: ../../source/api-guide.rst:217
 msgid "2,000/minute"
 msgstr ""
 
-#: ../../source/api-guide.rst:224
+#: ../../source/api-guide.rst:218
 msgid "Custom limits"
 msgstr ""
 
-#: ../../source/api-guide.rst:226
+#: ../../source/api-guide.rst:220
 msgid "Rate limit information is included in response headers:"
 msgstr ""
 
-#: ../../source/api-guide.rst:236
+#: ../../source/api-guide.rst:230
 msgid "SDK Examples"
 msgstr ""
 
-#: ../../source/api-guide.rst:239
+#: ../../source/api-guide.rst:233
 msgid "Python SDK"
 msgstr ""
 
-#: ../../source/api-guide.rst:274
+#: ../../source/api-guide.rst:268
 msgid "JavaScript SDK"
 msgstr ""
 
-#: ../../source/api-guide.rst:317
+#: ../../source/api-guide.rst:311
 msgid "Webhooks"
 msgstr ""
 
-#: ../../source/api-guide.rst:320
+#: ../../source/api-guide.rst:314
 msgid "Event Types"
 msgstr ""
 
-#: ../../source/api-guide.rst:322
+#: ../../source/api-guide.rst:316
 msgid "Our platform sends webhooks for the following events:"
 msgstr ""
 
-#: ../../source/api-guide.rst:327
+#: ../../source/api-guide.rst:321
 msgid "``project.created``"
 msgstr ""
 
-#: ../../source/api-guide.rst:328
+#: ../../source/api-guide.rst:322
 msgid "``project.updated``"
 msgstr ""
 
-#: ../../source/api-guide.rst:329
+#: ../../source/api-guide.rst:323
 msgid "``project.deleted``"
 msgstr ""
 
-#: ../../source/api-guide.rst:330
+#: ../../source/api-guide.rst:324
 msgid "``user.registered``"
 msgstr ""
 
-#: ../../source/api-guide.rst:331
+#: ../../source/api-guide.rst:325
 msgid "``user.updated``"
 msgstr ""
 
-#: ../../source/api-guide.rst:332
+#: ../../source/api-guide.rst:326
 msgid "``deployment.started``"
 msgstr ""
 
-#: ../../source/api-guide.rst:333
+#: ../../source/api-guide.rst:327
 msgid "``deployment.completed``"
 msgstr ""
 
-#: ../../source/api-guide.rst:334
+#: ../../source/api-guide.rst:328
 msgid "``deployment.failed``"
 msgstr ""
 
-#: ../../source/api-guide.rst:337
+#: ../../source/api-guide.rst:331
 msgid "Webhook Configuration"
 msgstr ""
 
-#: ../../source/api-guide.rst:339
+#: ../../source/api-guide.rst:333
 msgid "Configure webhooks in your project settings:"
 msgstr ""
 
-#: ../../source/api-guide.rst:341
+#: ../../source/api-guide.rst:335
 msgid "Navigate to **Project Settings** → **Webhooks**"
 msgstr ""
 
-#: ../../source/api-guide.rst:342
+#: ../../source/api-guide.rst:336
 msgid "Click **Add Webhook**"
 msgstr ""
 
-#: ../../source/api-guide.rst:343
+#: ../../source/api-guide.rst:337
 msgid "Enter your endpoint URL"
 msgstr ""
 
-#: ../../source/api-guide.rst:344
+#: ../../source/api-guide.rst:338
 msgid "Select events to subscribe to"
 msgstr ""
 
-#: ../../source/api-guide.rst:345
+#: ../../source/api-guide.rst:339
 msgid "Configure retry settings"
 msgstr ""
 
-#: ../../source/api-guide.rst:348
-msgid "Webhook endpoints must respond with HTTP 200-299 status codes within 10 seconds, or the delivery will be considered failed."
+#: ../../source/api-guide.rst:342
+msgid ""
+"Webhook endpoints must respond with HTTP 200-299 status codes within 10 "
+"seconds, or the delivery will be considered failed."
 msgstr ""
 
-#: ../../source/api-guide.rst:351
+#: ../../source/api-guide.rst:345
 msgid "Testing and Development"
 msgstr ""
 
-#: ../../source/api-guide.rst:354
+#: ../../source/api-guide.rst:348
 msgid "Sandbox Environment"
 msgstr ""
 
-#: ../../source/api-guide.rst:356
+#: ../../source/api-guide.rst:350
 msgid "Use our sandbox environment for testing:"
 msgstr ""
 
-#: ../../source/api-guide.rst:367
+#: ../../source/api-guide.rst:361
 msgid "Mock Data"
 msgstr ""
 
-#: ../../source/api-guide.rst:369
+#: ../../source/api-guide.rst:363
 msgid "The sandbox includes realistic mock data:"
 msgstr ""
 
-#: ../../source/api-guide.rst:371
+#: ../../source/api-guide.rst:365
 msgid "50+ sample users"
 msgstr ""
 
-#: ../../source/api-guide.rst:372
+#: ../../source/api-guide.rst:366
 msgid "100+ sample projects"
 msgstr ""
 
-#: ../../source/api-guide.rst:373
+#: ../../source/api-guide.rst:367
 msgid "Realistic timestamps and relationships"
 msgstr ""
 
-#: ../../source/api-guide.rst:374
+#: ../../source/api-guide.rst:368
 msgid "Predictable responses for testing edge cases"
 msgstr ""
 
-#: ../../source/api-guide.rst:377
+#: ../../source/api-guide.rst:371
 msgid "Support and Resources"
 msgstr ""
 
-#: ../../source/api-guide.rst:380
+#: ../../source/api-guide.rst:374
 msgid "Getting Help"
 msgstr ""
 
-#: ../../source/api-guide.rst:383
-msgid "Our support team is available 24/7 for Enterprise customers, and during business hours (9 AM - 6 PM UTC) for all other plans."
+#: ../../source/api-guide.rst:377
+msgid ""
+"Our support team is available 24/7 for Enterprise customers, and during "
+"business hours (9 AM - 6 PM UTC) for all other plans."
 msgstr ""
 
-#: ../../source/api-guide.rst:385
+#: ../../source/api-guide.rst:379
 msgid "**Documentation:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:386
+#: ../../source/api-guide.rst:380
 msgid "API Reference: https://docs.example.com/api"
 msgstr ""
 
-#: ../../source/api-guide.rst:387
+#: ../../source/api-guide.rst:381
 msgid "Tutorials: https://docs.example.com/tutorials"
 msgstr ""
 
-#: ../../source/api-guide.rst:388
+#: ../../source/api-guide.rst:382
 msgid "Code Examples: https://github.com/example/api-examples"
 msgstr ""
 
-#: ../../source/api-guide.rst:390
+#: ../../source/api-guide.rst:384
 msgid "**Community:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:391
+#: ../../source/api-guide.rst:385
 msgid "Stack Overflow: Tag your questions with ``example-api``"
 msgstr ""
 
-#: ../../source/api-guide.rst:392
+#: ../../source/api-guide.rst:386
 msgid "Discord: https://discord.gg/example-developers"
 msgstr ""
 
-#: ../../source/api-guide.rst:393
+#: ../../source/api-guide.rst:387
 msgid "GitHub Discussions: https://github.com/example/api-feedback"
 msgstr ""
 
-#: ../../source/api-guide.rst:395
+#: ../../source/api-guide.rst:389
 msgid "**Direct Support:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:396
+#: ../../source/api-guide.rst:390
 msgid "Email: developers@example.com"
 msgstr ""
 
-#: ../../source/api-guide.rst:397
+#: ../../source/api-guide.rst:391
 msgid "Support Portal: https://support.example.com"
 msgstr ""
 
-#: ../../source/api-guide.rst:400
+#: ../../source/api-guide.rst:394
 msgid "Changelog"
 msgstr ""
 
-#: ../../source/api-guide.rst:403
+#: ../../source/api-guide.rst:397
 msgid "Version 2.1 (March 2024)"
 msgstr ""
 
-#: ../../source/api-guide.rst:405
+#: ../../source/api-guide.rst:399
 msgid "**New Features:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:406
+#: ../../source/api-guide.rst:400
 msgid "Added batch operations for user management"
 msgstr ""
 
-#: ../../source/api-guide.rst:407
+#: ../../source/api-guide.rst:401
 msgid "Improved rate limiting with burst capacity"
 msgstr ""
 
-#: ../../source/api-guide.rst:408
+#: ../../source/api-guide.rst:402
 msgid "New webhook event types for deployments"
 msgstr ""
 
-#: ../../source/api-guide.rst:410
+#: ../../source/api-guide.rst:404
 msgid "**Breaking Changes:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:411
+#: ../../source/api-guide.rst:405
 msgid "Deprecated ``/api/v1/legacy`` endpoints (removal planned for v3.0)"
 msgstr ""
 
-#: ../../source/api-guide.rst:412
+#: ../../source/api-guide.rst:406
 msgid "Changed default pagination limit from 25 to 50"
 msgstr ""
 
-#: ../../source/api-guide.rst:414
+#: ../../source/api-guide.rst:408
 msgid "**Bug Fixes:**"
 msgstr ""
 
-#: ../../source/api-guide.rst:415
+#: ../../source/api-guide.rst:409
 msgid "Fixed timezone handling in date filters"
 msgstr ""
 
-#: ../../source/api-guide.rst:416
+#: ../../source/api-guide.rst:410
 msgid "Resolved intermittent 500 errors in project creation"
 msgstr ""
 
-#: ../../source/api-guide.rst:418
-#: ../../source/index.rst:171
+#: ../../source/api-guide.rst:412 ../../source/index.rst:171
 msgid "---"
 msgstr ""
 
-#: ../../source/api-guide.rst:420
+#: ../../source/api-guide.rst:414
 msgid "Stay Updated"
 msgstr ""
 
-#: ../../source/api-guide.rst:423
-msgid "Subscribe to our developer newsletter at https://example.com/developers/newsletter to receive updates about API changes, new features, and best practices."
+#: ../../source/api-guide.rst:417
+msgid ""
+"Subscribe to our developer newsletter at https://example.com/developers/"
+"newsletter to receive updates about API changes, new features, and best "
+"practices."
 msgstr ""
 
-#: ../../source/api-guide.rst:425
+#: ../../source/api-guide.rst:419
 msgid "*Last updated: March 15, 2024 | API Version: 2.1.0* ```"
 msgstr ""
 
 #: ../../source/claude.rst:8
-msgid "This documentation reflects Claude Sonnet 4 capabilities as of August 2025. Features and capabilities may evolve over time. .. warning:: Always verify important information, especially for critical decisions or recent events that may have occurred after the knowledge cutoff date."
+msgid ""
+"This documentation reflects Claude Sonnet 4 capabilities as of August 2025. "
+"Features and capabilities may evolve over time. .. warning:: Always verify "
+"important information, especially for critical decisions or recent events "
+"that may have occurred after the knowledge cutoff date."
 msgstr ""
 
 #: ../../source/index.rst:178
@@ -571,15 +583,18 @@ msgid "Welcome to Our Platform"
 msgstr ""
 
 #: ../../source/index.rst:8
-msgid "This guide will help you get started with our platform quickly and efficiently."
+msgid ""
+"This guide will help you get started with our platform quickly and "
+"efficiently."
 msgstr ""
 
 #: ../../source/index.rst:11
-msgid "This is a sample documentation file designed for testing internationalization workflows."
+msgid ""
+"This is a sample documentation file designed for testing "
+"internationalization workflows."
 msgstr ""
 
-#: ../../source/index.rst:14
-#: ../../source/tutorial.rst:15
+#: ../../source/index.rst:14 ../../source/tutorial.rst:15
 msgid "Getting Started"
 msgstr ""
 
@@ -640,7 +655,8 @@ msgid "Enter your credentials and select your preferred options."
 msgstr ""
 
 #: ../../source/index.rst:44
-msgid "Do not interrupt the installation process. This may cause system instability."
+msgid ""
+"Do not interrupt the installation process. This may cause system instability."
 msgstr ""
 
 #: ../../source/index.rst:47
@@ -835,18 +851,18 @@ msgstr ""
 msgid "For additional help, contact our support team at support@example.com"
 msgstr ""
 
-#: ../../source/index.rst:140
-#: ../../source/tutorial.rst:133
+#: ../../source/index.rst:140 ../../source/tutorial.rst:133
 msgid "Frequently Asked Questions"
 msgstr ""
 
-#: ../../source/index.rst:142
-#: ../../source/tutorial.rst:135
+#: ../../source/index.rst:142 ../../source/tutorial.rst:135
 msgid "**Q: How do I reset my password?**"
 msgstr ""
 
 #: ../../source/index.rst:144
-msgid "A: Navigate to the login page and click \"Forgot Password\". Follow the instructions sent to your email."
+msgid ""
+"A: Navigate to the login page and click \"Forgot Password\". Follow the "
+"instructions sent to your email."
 msgstr ""
 
 #: ../../source/index.rst:146
@@ -854,7 +870,9 @@ msgid "**Q: Can I use this software offline?**"
 msgstr ""
 
 #: ../../source/index.rst:148
-msgid "A: Limited functionality is available offline. For full features, an internet connection is required."
+msgid ""
+"A: Limited functionality is available offline. For full features, an "
+"internet connection is required."
 msgstr ""
 
 #: ../../source/index.rst:150
@@ -886,7 +904,9 @@ msgid "Conclusion"
 msgstr ""
 
 #: ../../source/index.rst:162
-msgid "You're now ready to start using our platform! For more detailed information, please refer to the complete documentation or contact our support team."
+msgid ""
+"You're now ready to start using our platform! For more detailed information, "
+"please refer to the complete documentation or contact our support team."
 msgstr ""
 
 #: ../../source/index.rst:164
@@ -918,7 +938,10 @@ msgid "**Version:** 2.1.0"
 msgstr ""
 
 #: ../../source/rag.rst:5
-msgid "What is RAG? Retrieval-Augmented Generation (RAG) is a technique that combines information retrieval with language generation to produce more accurate and contextual responses. Core Concept"
+msgid ""
+"What is RAG? Retrieval-Augmented Generation (RAG) is a technique that "
+"combines information retrieval with language generation to produce more "
+"accurate and contextual responses. Core Concept"
 msgstr ""
 
 #: ../../source/rag.rst:9
@@ -926,7 +949,11 @@ msgid "Keyword Search and Semantic Search"
 msgstr ""
 
 #: ../../source/rag.rst:12
-msgid "RAG is particularly effective for knowledge-intensive tasks where accuracy and source attribution are important. .. warning:: Quality of retrieved documents directly impacts the final response quality. Ensure your knowledge base is well-curated and up-to-date."
+msgid ""
+"RAG is particularly effective for knowledge-intensive tasks where accuracy "
+"and source attribution are important. .. warning:: Quality of retrieved "
+"documents directly impacts the final response quality. Ensure your knowledge "
+"base is well-curated and up-to-date."
 msgstr ""
 
 #: ../../source/tutorial.rst:4
@@ -934,7 +961,8 @@ msgid "Welcome to Our Application Lady And Gentleman"
 msgstr ""
 
 #: ../../source/tutorial.rst:7
-msgid "This is a sample RST file for testing internationalization with Weblate."
+msgid ""
+"This is a sample RST file for testing internationalization with Weblate."
 msgstr ""
 
 #: ../../source/tutorial.rst:10
@@ -942,7 +970,9 @@ msgid "Introduction"
 msgstr ""
 
 #: ../../source/tutorial.rst:12
-msgid "Welcome to our amazing application! This software helps you manage your daily tasks efficiently and stay organized."
+msgid ""
+"Welcome to our amazing application! This software helps you manage your "
+"daily tasks efficiently and stay organized."
 msgstr ""
 
 #: ../../source/tutorial.rst:17
@@ -954,7 +984,9 @@ msgid "**Download and Install**"
 msgstr ""
 
 #: ../../source/tutorial.rst:21
-msgid "Download the latest version from our website and follow the installation wizard."
+msgid ""
+"Download the latest version from our website and follow the installation "
+"wizard."
 msgstr ""
 
 #: ../../source/tutorial.rst:23
@@ -962,7 +994,9 @@ msgid "**Create Your Account**"
 msgstr ""
 
 #: ../../source/tutorial.rst:25
-msgid "Sign up with your email address to get started. Don't worry, we respect your privacy!"
+msgid ""
+"Sign up with your email address to get started. Don't worry, we respect your "
+"privacy!"
 msgstr ""
 
 #: ../../source/tutorial.rst:27
@@ -970,7 +1004,8 @@ msgid "**Set Up Your Profile**"
 msgstr ""
 
 #: ../../source/tutorial.rst:29
-msgid "Add your personal information and preferences to customize your experience."
+msgid ""
+"Add your personal information and preferences to customize your experience."
 msgstr ""
 
 #: ../../source/tutorial.rst:32
@@ -1146,19 +1181,27 @@ msgid "When errors occur, the system provides helpful messages:"
 msgstr ""
 
 #: ../../source/tutorial.rst:114
-msgid "**Connection Error**: Unable to connect to the server. Please check your internet connection."
+msgid ""
+"**Connection Error**: Unable to connect to the server. Please check your "
+"internet connection."
 msgstr ""
 
 #: ../../source/tutorial.rst:115
-msgid "**Permission Denied**: You don't have permission to perform this action. Contact your administrator."
+msgid ""
+"**Permission Denied**: You don't have permission to perform this action. "
+"Contact your administrator."
 msgstr ""
 
 #: ../../source/tutorial.rst:116
-msgid "**File Not Found**: The requested file could not be found. Please verify the file path."
+msgid ""
+"**File Not Found**: The requested file could not be found. Please verify the "
+"file path."
 msgstr ""
 
 #: ../../source/tutorial.rst:117
-msgid "**Invalid Input**: The information you entered is not valid. Please check and try again."
+msgid ""
+"**Invalid Input**: The information you entered is not valid. Please check "
+"and try again."
 msgstr ""
 
 #: ../../source/tutorial.rst:120
@@ -1206,7 +1249,9 @@ msgid "Visit our knowledge base at docs.example.com"
 msgstr ""
 
 #: ../../source/tutorial.rst:137
-msgid "A: Click on \"Forgot Password\" on the login page and follow the instructions sent to your email."
+msgid ""
+"A: Click on \"Forgot Password\" on the login page and follow the "
+"instructions sent to your email."
 msgstr ""
 
 #: ../../source/tutorial.rst:139
@@ -1214,7 +1259,9 @@ msgid "**Q: Can I use the application offline?**"
 msgstr ""
 
 #: ../../source/tutorial.rst:141
-msgid "A: Yes, basic features are available offline. Your data will sync when you reconnect to the internet."
+msgid ""
+"A: Yes, basic features are available offline. Your data will sync when you "
+"reconnect to the internet."
 msgstr ""
 
 #: ../../source/tutorial.rst:143
@@ -1222,7 +1269,9 @@ msgid "**Q: Is my data secure?**"
 msgstr ""
 
 #: ../../source/tutorial.rst:145
-msgid "A: Absolutely! We use industry-standard encryption to protect your information."
+msgid ""
+"A: Absolutely! We use industry-standard encryption to protect your "
+"information."
 msgstr ""
 
 #: ../../source/tutorial.rst:148
@@ -1246,7 +1295,9 @@ msgid "License: MIT License"
 msgstr ""
 
 #: ../../source/tutorial.rst:159
-msgid "Remember to regularly update the application to get the latest features and security improvements."
+msgid ""
+"Remember to regularly update the application to get the latest features and "
+"security improvements."
 msgstr ""
 
 #: ../../source/tutorial.rst:164
