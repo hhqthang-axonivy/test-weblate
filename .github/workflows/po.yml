@@ -38,7 +38,8 @@ jobs:
             tail -n +$new_header_end "$po" > /tmp/body
             cat /tmp/old_header /tmp/body > "$po"
           fi
-          perl -pi -e 'chomp if eof' "$po"   # strip trailing newline added by our build
+          perl -pi -e 'chomp if eof' "$po"
+          echo "Last byte of $po: $(xxd "$po" | tail -1)"
         done
     - name: Create Pull Request
       if: ${{ env.LOCALE_DIFF != '' }}
