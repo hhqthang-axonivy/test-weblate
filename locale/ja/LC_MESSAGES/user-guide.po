@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 10:04+0000\n"
-"PO-Revision-Date: 2026-04-28 08:27+0000\n"
+"PO-Revision-Date: 2026-04-28 08:46+0000\n"
 "Last-Translator: THẮNG HUỲNH HỮU QUYẾT <hhqthang@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/thang-test/"
 "thang-test/ja/>\n"
@@ -66,9 +66,7 @@ msgstr "API を認証するには、リクエストヘッダーに API トーク
 msgid ""
 "Keep your API tokens secure! Never expose them in client-side code or "
 "public repositories."
-msgstr ""
-"APIトークンを安全に保ちます! クライアント側コードやパブリックリポジトリにそれ"
-"らを露出しないでください."
+msgstr "APIトークンを安全に保ちます! クライアント側コードやパブリックリポジトリにそれらを露出しないでください."
 
 #: ../../source/api-guide.rst:38
 msgid "OAuth 2.0 Flow"
@@ -80,11 +78,11 @@ msgstr "ユーザー認証が必要なアプリケーションでは、OAuth 2.0
 
 #: ../../source/api-guide.rst:42
 msgid "**Authorization Request**"
-msgstr ""
+msgstr "**認証依頼**"
 
 #: ../../source/api-guide.rst:44
 msgid "Redirect users to our authorization endpoint:"
-msgstr ""
+msgstr "認証エンドポイントにユーザーをリダイレクトします"
 
 #: ../../source/api-guide.rst:54
 msgid "**Token Exchange**"
@@ -958,10 +956,18 @@ msgid ""
 msgstr ""
 
 #: ../../source/rag.rst:9
-msgid "Keyword Search and Semantic Search"
+msgid ""
+"RAG retrieves relevant documents from a knowledge base and incorporates "
+"that information into the generation process of a language model. This "
+"allows the model to provide responses that are grounded in factual "
+"information, improving accuracy and relevance."
 msgstr ""
 
 #: ../../source/rag.rst:11
+msgid "Keyword Search and Semantic Search"
+msgstr ""
+
+#: ../../source/rag.rst:13
 msgid ""
 "RAG can utilize both keyword-based search and semantic search to retrieve"
 " relevant documents from a knowledge base. Keyword search relies on exact"
@@ -969,13 +975,13 @@ msgid ""
 "relevant information."
 msgstr ""
 
-#: ../../source/rag.rst:13
+#: ../../source/rag.rst:15
 msgid ""
 "Integration with Language ModelsRAG integrates retrieved documents into "
 "the input of a language model, allowing it to generate responses that are"
 msgstr ""
 
-#: ../../source/rag.rst:16
+#: ../../source/rag.rst:18
 msgid ""
 "RAG is particularly effective for knowledge-intensive tasks where "
 "accuracy and source attribution are important. .. warning:: Quality of "
