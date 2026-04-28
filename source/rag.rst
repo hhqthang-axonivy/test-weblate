@@ -12,9 +12,6 @@ Keyword Search and Semantic Search
 
 RAG can utilize both keyword-based search and semantic search to retrieve relevant documents from a knowledge base. Keyword search relies on exact matches, while semantic search uses embeddings to find contextually relevant information.
 
-Integration with Language ModelsRAG integrates retrieved documents into the input of a language model, allowing it to generate responses that are
-
-
 Thanks to RAG, language models can provide more accurate and contextually relevant responses, especially for knowledge-intensive tasks where access to up-to-date information is crucial.
 
 .. note::
