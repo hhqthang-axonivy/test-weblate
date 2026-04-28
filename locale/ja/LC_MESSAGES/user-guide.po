@@ -565,16 +565,7 @@ msgstr ""
 msgid "*Last updated: March 15, 2024 | API Version: 2.1.0* ```"
 msgstr ""
 
-#: ../../source/claude.rst:7
-msgid ""
-"Anthropic's Claude is an AI assistant designed to provide helpful, "
-"accurate, and contextually relevant responses across a wide range of "
-"topics. Named after Claude Shannon, the father of information theory, "
-"Claude is built to assist users in various tasks, from answering "
-"questions to generating content."
-msgstr ""
-
-#: ../../source/claude.rst:10
+#: ../../source/claude.rst:8
 msgid ""
 "This documentation reflects Claude Sonnet 4 capabilities as of August "
 "2025. Features and capabilities may evolve over time. .. warning:: Always"
@@ -1382,4 +1373,15 @@ msgstr ""
 #~ "built on advanced language models and"
 #~ " incorporates safety features to ensure "
 #~ "responsible AI usage."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Anthropic's Claude is an AI assistant"
+#~ " designed to provide helpful, accurate, "
+#~ "and contextually relevant responses across "
+#~ "a wide range of topics. Named "
+#~ "after Claude Shannon, the father of "
+#~ "information theory, Claude is built to"
+#~ " assist users in various tasks, from"
+#~ " answering questions to generating content."
 #~ msgstr ""
