@@ -565,10 +565,12 @@ msgstr ""
 msgid "*Last updated: March 15, 2024 | API Version: 2.1.0* ```"
 msgstr ""
 
-#: ../../source/claude.rst:7
+#: ../../source/claude.rst:8
 msgid ""
-"What is Claude? Claude is an AI assistant developed by Anthropic, "
-"designed to assist with a wide range of tasks"
+"Claude is an AI assistant developed by Anthropic, designed to provide "
+"helpful and accurate responses across a wide range of topics. It is built"
+" on advanced language models and incorporates safety features to ensure "
+"responsible AI usage."
 msgstr ""
 
 #: ../../source/claude.rst:11
@@ -1364,3 +1366,9 @@ msgstr ""
 #~ " relevant information."
 #~ msgstr ""
 
+#~ msgid ""
+#~ "What is Claude? Claude is an AI"
+#~ " assistant developed by Anthropic, designed"
+#~ " to assist with a wide range of"
+#~ " tasks"
+#~ msgstr ""
