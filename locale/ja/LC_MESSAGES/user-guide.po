@@ -565,7 +565,13 @@ msgstr ""
 msgid "*Last updated: March 15, 2024 | API Version: 2.1.0* ```"
 msgstr ""
 
-#: ../../source/claude.rst:8
+#: ../../source/claude.rst:7
+msgid ""
+"What is Claude? Claude is an AI assistant developed by Anthropic, "
+"designed to assist with a wide range of tasks"
+msgstr ""
+
+#: ../../source/claude.rst:11
 msgid ""
 "This documentation reflects Claude Sonnet 4 capabilities as of August "
 "2025. Features and capabilities may evolve over time. .. warning:: Always"
