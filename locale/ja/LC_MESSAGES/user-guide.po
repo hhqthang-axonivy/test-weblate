@@ -981,14 +981,14 @@ msgid ""
 "the input of a language model, allowing it to generate responses that are"
 msgstr ""
 
-#: ../../source/rag.rst:17
+#: ../../source/rag.rst:18
 msgid ""
-"informed by the retrieved information. This can be done through various "
-"methods, such as concatenating retrieved documents with the user query or"
-" using attention mechanisms to focus on relevant information."
+"Thanks to RAG, language models can provide more accurate and contextually"
+" relevant responses, especially for knowledge-intensive tasks where "
+"access to up-to-date information is crucial."
 msgstr ""
 
-#: ../../source/rag.rst:20
+#: ../../source/rag.rst:21
 msgid ""
 "RAG is particularly effective for knowledge-intensive tasks where "
 "accuracy and source attribution are important. .. warning:: Quality of "
@@ -1354,4 +1354,13 @@ msgstr ""
 
 #~ msgid "Standard Error Response"
 #~ msgstr "標準エラー応答"
+
+#~ msgid ""
+#~ "informed by the retrieved information. "
+#~ "This can be done through various "
+#~ "methods, such as concatenating retrieved "
+#~ "documents with the user query or "
+#~ "using attention mechanisms to focus on"
+#~ " relevant information."
+#~ msgstr ""
 
