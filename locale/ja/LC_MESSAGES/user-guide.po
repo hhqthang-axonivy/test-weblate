@@ -66,9 +66,7 @@ msgstr "API を認証するには、リクエストヘッダーに API トーク
 msgid ""
 "Keep your API tokens secure! Never expose them in client-side code or "
 "public repositories."
-msgstr ""
-"APIトークンを安全に保ちます! クライアント側コードやパブリックリポジトリにそれ"
-"らを露出しないでください."
+msgstr "APIトークンを安全に保ちます! クライアント側コードやパブリックリポジトリにそれらを露出しないでください."
 
 #: ../../source/api-guide.rst:38
 msgid "OAuth 2.0 Flow"
@@ -958,10 +956,18 @@ msgid ""
 msgstr ""
 
 #: ../../source/rag.rst:9
-msgid "Keyword Search and Semantic Search"
+msgid ""
+"RAG retrieves relevant documents from a knowledge base and incorporates "
+"that information into the generation process of a language model. This "
+"allows the model to provide responses that are grounded in factual "
+"information, improving accuracy and relevance."
 msgstr ""
 
 #: ../../source/rag.rst:11
+msgid "Keyword Search and Semantic Search"
+msgstr ""
+
+#: ../../source/rag.rst:13
 msgid ""
 "RAG can utilize both keyword-based search and semantic search to retrieve"
 " relevant documents from a knowledge base. Keyword search relies on exact"
@@ -969,13 +975,13 @@ msgid ""
 "relevant information."
 msgstr ""
 
-#: ../../source/rag.rst:13
+#: ../../source/rag.rst:15
 msgid ""
 "Integration with Language ModelsRAG integrates retrieved documents into "
 "the input of a language model, allowing it to generate responses that are"
 msgstr ""
 
-#: ../../source/rag.rst:16
+#: ../../source/rag.rst:18
 msgid ""
 "RAG is particularly effective for knowledge-intensive tasks where "
 "accuracy and source attribution are important. .. warning:: Quality of "
