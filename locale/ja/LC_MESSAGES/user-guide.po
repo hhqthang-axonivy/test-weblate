@@ -961,7 +961,13 @@ msgid ""
 "relevant information."
 msgstr ""
 
-#: ../../source/rag.rst:14
+#: ../../source/rag.rst:13
+msgid ""
+"Integration with Language ModelsRAG integrates retrieved documents into "
+"the input of a language model, allowing it to generate responses that are"
+msgstr ""
+
+#: ../../source/rag.rst:16
 msgid ""
 "RAG is particularly effective for knowledge-intensive tasks where "
 "accuracy and source attribution are important. .. warning:: Quality of "
@@ -1327,4 +1333,3 @@ msgstr ""
 
 #~ msgid "Standard Error Response"
 #~ msgstr "標準エラー応答"
-
