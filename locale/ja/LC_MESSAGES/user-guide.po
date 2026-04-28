@@ -969,14 +969,7 @@ msgid ""
 "relevant information."
 msgstr ""
 
-#: ../../source/rag.rst:15
-msgid ""
-"Thanks to RAG, language models can provide more accurate and contextually"
-" relevant responses, especially for knowledge-intensive tasks where "
-"access to up-to-date information is crucial."
-msgstr ""
-
-#: ../../source/rag.rst:18
+#: ../../source/rag.rst:16
 msgid ""
 "RAG is particularly effective for knowledge-intensive tasks where "
 "accuracy and source attribution are important. .. warning:: Quality of "
@@ -1385,4 +1378,12 @@ msgstr ""
 #~ " retrieved documents into the input "
 #~ "of a language model, allowing it "
 #~ "to generate responses that are"
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Thanks to RAG, language models can "
+#~ "provide more accurate and contextually "
+#~ "relevant responses, especially for "
+#~ "knowledge-intensive tasks where access to"
+#~ " up-to-date information is crucial."
 #~ msgstr ""
