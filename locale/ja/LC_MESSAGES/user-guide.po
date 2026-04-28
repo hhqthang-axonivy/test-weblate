@@ -971,18 +971,12 @@ msgstr ""
 
 #: ../../source/rag.rst:15
 msgid ""
-"Integration with Language ModelsRAG integrates retrieved documents into "
-"the input of a language model, allowing it to generate responses that are"
-msgstr ""
-
-#: ../../source/rag.rst:18
-msgid ""
 "Thanks to RAG, language models can provide more accurate and contextually"
 " relevant responses, especially for knowledge-intensive tasks where "
 "access to up-to-date information is crucial."
 msgstr ""
 
-#: ../../source/rag.rst:21
+#: ../../source/rag.rst:18
 msgid ""
 "RAG is particularly effective for knowledge-intensive tasks where "
 "accuracy and source attribution are important. .. warning:: Quality of "
@@ -1384,4 +1378,11 @@ msgstr ""
 #~ "information theory, Claude is built to"
 #~ " assist users in various tasks, from"
 #~ " answering questions to generating content."
+#~ msgstr ""
+
+#~ msgid ""
+#~ "Integration with Language ModelsRAG integrates"
+#~ " retrieved documents into the input "
+#~ "of a language model, allowing it "
+#~ "to generate responses that are"
 #~ msgstr ""
