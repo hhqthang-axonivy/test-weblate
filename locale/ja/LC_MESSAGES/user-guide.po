@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 10:04+0000\n"
-"PO-Revision-Date: 2026-04-28 08:27+0000\n"
+"PO-Revision-Date: 2026-04-28 08:46+0000\n"
 "Last-Translator: THẮNG HUỲNH HỮU QUYẾT <hhqthang@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/thang-test/"
 "thang-test/ja/>\n"
@@ -78,11 +78,11 @@ msgstr "ユーザー認証が必要なアプリケーションでは、OAuth 2.0
 
 #: ../../source/api-guide.rst:42
 msgid "**Authorization Request**"
-msgstr ""
+msgstr "**認証依頼**"
 
 #: ../../source/api-guide.rst:44
 msgid "Redirect users to our authorization endpoint:"
-msgstr ""
+msgstr "認証エンドポイントにユーザーをリダイレクトします"
 
 #: ../../source/api-guide.rst:54
 msgid "**Token Exchange**"
