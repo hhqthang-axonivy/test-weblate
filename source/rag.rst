@@ -14,7 +14,9 @@ RAG can utilize both keyword-based search and semantic search to retrieve releva
 
 Integration with Language ModelsRAG integrates retrieved documents into the input of a language model, allowing it to generate responses that are
 
-informed by the retrieved information. This can be done through various methods, such as concatenating retrieved documents with the user query or using attention mechanisms to focus on relevant information.
+informed by the retrieved information. This can be done through various methods, such as concatenating retrieved documents with the user query or using attention mechanisms to focus on relevant information. 
+
+Thanks to RAG, language models can provide more accurate and contextually relevant responses, especially for knowledge-intensive tasks where access to up-to-date information is crucial.
 
 .. note::
 RAG is particularly effective for knowledge-intensive tasks where accuracy and source attribution are important.
