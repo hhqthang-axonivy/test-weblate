@@ -4,8 +4,8 @@ Claude: AI Assistant Overview
 :depth: 2
 :local:
 
-What is Claude?
-Claude is an AI assistant developed by Anthropic, designed to assist with a wide range of tasks
+
+Claude is an AI assistant developed by Anthropic, designed to provide helpful and accurate responses across a wide range of topics. It is built on advanced language models and incorporates safety features to ensure responsible AI usage.
 
 .. note::
 This documentation reflects Claude Sonnet 4 capabilities as of August 2025. Features and capabilities may evolve over time.
