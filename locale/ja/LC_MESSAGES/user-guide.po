@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 10:04+0000\n"
-"PO-Revision-Date: 2026-04-28 08:46+0000\n"
+"PO-Revision-Date: 2026-04-28 11:30+0000\n"
 "Last-Translator: THẮNG HUỲNH HỮU QUYẾT <hhqthang@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/thang-test/"
 "thang-test/ja/>\n"
@@ -86,11 +86,11 @@ msgstr "認証エンドポイントにユーザーをリダイレクトします
 
 #: ../../source/api-guide.rst:54
 msgid "**Token Exchange**"
-msgstr ""
+msgstr "**トークン交換**"
 
 #: ../../source/api-guide.rst:56
 msgid "Exchange the authorization code for an access token:"
-msgstr ""
+msgstr "アクセストークンの認可コードを交換します"
 
 #: ../../source/api-guide.rst:68
 msgid "API Endpoints"
