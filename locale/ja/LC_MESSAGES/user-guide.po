@@ -1387,3 +1387,15 @@ msgstr ""
 #~ "knowledge-intensive tasks where access to"
 #~ " up-to-date information is crucial."
 #~ msgstr ""
+
+#~ msgid "Unzip the downloaded file in any folder where you have full access."
+#~ msgstr "ダウンロードしたファイルをフルアクセスできる任意のフォルダーに解凍します。"
+
+#~ msgid "Run ``Axon Ivy Designer``."
+#~ msgstr "``Axon Ivy Designer`` を実行します。"
+
+#~ msgid "Persisten t"
+#~ msgstr "永続"
+
+#~ msgid "We have removed the UUID from the Rest Client and the GUID from the Web Service Client. This means we no longer use these IDs in your processes to reference the clients. Instead we use the YAML key of the client. This makes the client more easier to identify and copy between projects. We do an automatic project conversion, but it can happen that we cannot find the client if it is defined in a different project. In this case, you need to manually update the client reference in your processes to use the YAML key of the client. The old ID is still available in the YAML configuration prefixed with `Legacy`, but you can remove this after you have migrated all your projects."
+#~ msgstr ""
