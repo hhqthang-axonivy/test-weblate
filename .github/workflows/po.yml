@@ -38,7 +38,7 @@ jobs:
             tail -n +$new_header_end "$po" > /tmp/body
             cat /tmp/old_header /tmp/body > "$po"
           fi
-          sed -i -z 's/\n\+$//' "$po"
+          sed -i -z 's/\n$//' "$po"
         done
     - name: Create Pull Request
       if: ${{ env.LOCALE_DIFF != '' }}
