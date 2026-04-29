@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 10:04+0000\n"
-"PO-Revision-Date: 2026-04-28 11:30+0000\n"
+"PO-Revision-Date: 2026-04-29 02:23+0000\n"
 "Last-Translator: THẮNG HUỲNH HỮU QUYẾT <hhqthang@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/thang-test/"
 "thang-test/ja/>\n"
@@ -94,7 +94,7 @@ msgstr "アクセストークンの認可コードを交換します"
 
 #: ../../source/api-guide.rst:68
 msgid "API Endpoints"
-msgstr ""
+msgstr "APIエンドポイント"
 
 #: ../../source/api-guide.rst:70
 msgid "Retrieve information about the current user:"
