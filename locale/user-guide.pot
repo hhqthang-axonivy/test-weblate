@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-04-23 22:03+0000\n"
+"POT-Creation-Date: 2026-05-04 22:16+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -548,7 +548,7 @@ msgid "*Last updated: March 15, 2024 | API Version: 2.1.0* ```"
 msgstr ""
 
 #: ../../source/claude.rst:8
-msgid "This documentation reflects Claude Sonnet 4 capabilities as of August 2025. Features and capabilities may evolve over time. .. warning:: Always verify important information, especially for critical decisions or recent events that may have occurred after the knowledge cutoff date."
+msgid "This documentation reflects Claude Sonnet 4 capabilities as of August 2025. Features and capabilities may evolve over time. .. warning:: Claude is designed for general-purpose assistance and may not be suitable for highly specialized tasks. Always verify critical information from trusted sources."
 msgstr ""
 
 #: ../../source/index.rst:178
@@ -915,10 +915,22 @@ msgid "What is RAG? Retrieval-Augmented Generation (RAG) is a technique that com
 msgstr ""
 
 #: ../../source/rag.rst:9
+msgid "RAG retrieves relevant documents from a knowledge base and incorporates that information into the generation process of a language model. This allows the model to provide responses that are grounded in factual information, improving accuracy and relevance."
+msgstr ""
+
+#: ../../source/rag.rst:11
 msgid "Keyword Search and Semantic Search"
 msgstr ""
 
-#: ../../source/rag.rst:12
+#: ../../source/rag.rst:13
+msgid "RAG can utilize both keyword-based search and semantic search to retrieve relevant documents from a knowledge base. Keyword search relies on exact matches, while semantic search uses embeddings to find contextually relevant information."
+msgstr ""
+
+#: ../../source/rag.rst:15
+msgid "Thang Huynh"
+msgstr ""
+
+#: ../../source/rag.rst:18
 msgid "RAG is particularly effective for knowledge-intensive tasks where accuracy and source attribution are important. .. warning:: Quality of retrieved documents directly impacts the final response quality. Ensure your knowledge base is well-curated and up-to-date."
 msgstr ""
 
