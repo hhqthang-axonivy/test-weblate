@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: Portal Guide ${revision}\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-04-23 10:04+0000\n"
-"PO-Revision-Date: 2026-04-29 02:29+0000\n"
+"PO-Revision-Date: 2026-05-13 07:11+0000\n"
 "Last-Translator: THẮNG HUỲNH HỮU QUYẾT <hhqthang@gmail.com>\n"
 "Language-Team: Japanese <https://hosted.weblate.org/projects/thang-test/"
 "thang-test/ja/>\n"
@@ -18,7 +18,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17.1-dev\n"
+"X-Generator: Weblate 2026.5.dev0\n"
 "Generated-By: Babel 2.17.0\n"
 
 #: ../../source/api-guide.rst:-1
@@ -102,11 +102,11 @@ msgstr "現在のユーザーに関する情報を取得します"
 
 #: ../../source/api-guide.rst:74
 msgid "**Example Request:**"
-msgstr ""
+msgstr "**例:**"
 
 #: ../../source/api-guide.rst:81
 msgid "**Example Response:**"
-msgstr ""
+msgstr "**例:**"
 
 #: ../../source/api-guide.rst
 msgid "Status Codes"
