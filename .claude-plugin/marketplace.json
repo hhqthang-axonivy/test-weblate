@@ -1,0 +1,17 @@
+{
+  "name": "my-first-marketplace-plugin",
+  "owner": {
+    "name": "Thang Huynh Huu Quyet"
+  },
+  "plugins": [
+    {
+      "name": "engineering-skills",
+      "source": "./engineering/skills",
+      "description": "Bundle of engineering skills: hello-marketplace, review.",
+      "skills": [
+        "./hello-marketplace",
+        "./review"
+      ]
+    }
+  ]
+}
